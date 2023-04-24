@@ -1,0 +1,44 @@
+------------------------------------------------------------
+*****  SPRINT 05/2023         (18-04-2023)  *****
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+TOTAL DE PROJETOS ENT: 7
+
+ENT002.001 - MANUTENÇÃO E OPERAÇÃO DE SUBSISTEMAS DOS ACELERADORES DO SIRIUS
+ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS
+ENT004.022 - PROJETO DE NOVO NLK PARA TOP-UP
+ENT004.032 - Ondulador PAPU
+ENT034.001 - Projeto de um Wavelengthshifter - WLS
+ENT094.003 - INTERF. P/ BIOSSENSOR NANOESTRUTURADO P/ MEDIDA NÃO INVAS. GLICEMIA
+ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS.
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+TOTAL DE PONTOS
+PLANEJADOS: 299
+27.18 pontos/dia útil
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+STATUS		#PONTOS		% PONTOS	#ATIVIDADES	% ATIVIDADES
+Done    	176		58.9		16		59.3
+In Progress	63		21.1		5		18.5
+To Do   	50		16.7		4		14.8
+Total		299				27
+------------------------------------------------------------
+
+------------------------------------------------------------
+MEMBRO		#PONTOS		#ATIVIDADES
+Bruno   	131		10
+Eduarda 	65		6
+Gabriel 	97		7
+Patricia	137		10
+Robert  	82		7
+Rogério 	137		11
+Samuel  	29		2
+------------------------------------------------------------

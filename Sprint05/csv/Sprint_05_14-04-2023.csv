@@ -1,0 +1,510 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Project url,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Fix versions,Components,Components,Due date,Votes,Description,Environment,Watchers,Watchers,Watchers,Watchers,Watchers Id,Watchers Id,Watchers Id,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Inward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Inward issue link (Cloners),Outward issue link (Cloners),Inward issue link (Issue split),Inward issue link (Issue split),Inward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Affected hardware),Custom field (Affected services),Custom field (Backout plan),Custom field (Balance (R$)),Custom field (Budget (R$)),Custom field (Category),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Client),Custom field (Compass),Custom field (Criteria - Consequence),Custom field (Criteria - HR),Custom field (Criteria - Indicators),Custom field (Criteria - Reputation),Custom field (Criteria - Time Window),Custom field (Department),Custom field (Development),Custom field (Employee location),Custom field (Employment type),Custom field (Epic Link),Epic Link Summary,Custom field (Event count),Custom field (Event date),Custom field (Event location),Custom field (Expense (R$)),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (Flagged),Custom field (Group),Custom field (Impact),Custom field (Implementation plan),Custom field (Investigation reason),Custom field (Issue color),Custom field (Job title),Custom field (Last working day),Custom field (Locked forms),Custom field (Maintenance location),Custom field (Maintenance type),Custom field (Major incident),Custom field (Move count),Custom field (Move date),Custom field (Move from),Custom field (Move to),Custom field (Open forms),Custom field (Operational categorization),Custom field (Origem),Custom field (Party Name),Custom field (Pending reason),Custom field (Planned end),Custom field (Planned start),Custom field (Priority Grade),Custom field (Priority Index),Custom field (Priority Score for Advanced Roadmaps),Custom field (Product categorization),Custom field (Rank),Custom field (Reference),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Resignation date),Custom field (Responders),Custom field (Root cause),Satisfaction rating,Custom field (Severity),Custom field (Source),Sprint,Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Team Id,Team Name,Custom field (Tempo de primeiro atendimento),Custom field (Test plan),Custom field (Time to close after resolution),Custom field (Time to first response),Custom field (Time to resolution),Custom field (Time to review normal change),Custom field (Total forms),Custom field (Urgency),Custom field (Work category),Custom field (Workaround),Custom field ([CHART] Date of First Response),Comment,Comment,Comment,Comment,Comment,Comment,Status Category
+Identificar a causa da interferência dos pulsos do NLK na leitura das FBPs da sala de racks 1 - SEI + COP + FAC,ENT002001-642,27603,Story,Selected for Development,ENT002001,ENT002.001 - MANUTENÇÃO E OPERAÇÃO DE SUBSISTEMAS DOS ACELERADORES DO SIRIUS,software,James Citadini,6250da2ea629c30068aa63af,"ESCOPO:
+Manutenções e Operação dos subsistemas  do Sirius",,Medium,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,21/Mar/23 3:08 PM,14/Apr/23 8:56 AM,03/Apr/23 4:18 PM,,,Parada de Abril 2023,,13/Apr/23 12:00 AM,0,"Foi identificado durante outros testes que ao pulsar o NLK aparece um pulso na leitura de corrente das FBPs da sala de racks 1. Vamos fazer alguns testes para tentar identificar a causa dessa interferência e pensar em formas de mitigá-la.
+
+Trabalho entre COP + SEI + FAC. Listar cenários de teste previamente.
+
+[~accountid:62b0acb8f38b4dcf73d839ec] / [~accountid:70121:016a6576-395b-4462-b1e7-fb210bae9d77]  / [~accountid:63d01fd6c565900ff40519b9] 
+
+*Túnel fechado. Previsão após 18h.*
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Dados coletados, de diferentes configurações de testes para análise e mitigação do problema.",,Gabriel Brunheira,Patricia Henriques Nallin,,,70121:016a6576-395b-4462-b1e7-fb210bae9d77,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT002001-5,Grupo SEI,,,,,,,,Impediment,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02lz3:,,,,,,,,,,,,,13/Apr/23 12:00 AM,8.0,,,13/Apr/23 12:00 AM,13/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,2023-04-14 11:56:01.581,"14/Apr/23 8:56 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flag) Flag added
+
+1º - Qual o Alerta ? Impedimento: Atividade programada para o dia 13/04 não foi realizada pois não foi possível pulsar o NLK.
+
+2º - Qual é o problema?  Atividade só pode ser realizada na parada durante à noite, e com acesso controlado ao túnel. Num primeiro momento, foi um problema com o MPS do Linac, que gerava interlock externo. Em um segundo momento, a fonte de alta tensão não apresentava a alta tensão necessária.
+
+3º - Qual o impacto na história? Tentaremos reprogramar o teste para o dia 17/04, mas é necessário que os problemas que ocorreram sejam resolvidos.
+
+4º - A quem deverá ser direcionado?  [~accountid:62b993f3fa171a27239c60f0]",,,,,,To Do
+[MBTemp] Verificar sensores de temperatura com leituras congeladas,ENT002001-467,21289,Story,DONE,ENT002001,ENT002.001 - MANUTENÇÃO E OPERAÇÃO DE SUBSISTEMAS DOS ACELERADORES DO SIRIUS,software,James Citadini,6250da2ea629c30068aa63af,"ESCOPO:
+Manutenções e Operação dos subsistemas  do Sirius",,Medium,Done,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,06/Dec/22 10:27 AM,10/Apr/23 4:55 PM,04/Apr/23 4:33 PM,10/Apr/23 4:55 PM,,Parada de Abril 2023,,07/Apr/23 12:00 AM,0,"[MBTemp] Verificar sensores de temperatura e/ou eletrônicas MBTemp com leituras congeladas. Eletrônicas e sensores fazem parte dos aceleradores (TB/BO/TS/SI).
+
+Pessoal do GOP pode levantar quais leituras estão defeituosas.
+
+[~accountid:63d01fd6c565900ff40519b9] 
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Sensores/eletrônicas voltarem a disponibilizar informação e/ou problemas identificados para tratamento posterior.
+
+----",,Patricia Henriques Nallin,,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT002001-5,Grupo SEI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i01pg2:,,,,,,,,,,,,,07/Apr/23 12:00 AM,8.0,,,07/Apr/23 12:00 AM,07/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,,,,,,,Done
+[Vazamento] Testes de atuação de interlock por vazamento de água no rack QD/SD/SF,ENT004012-137,27399,Story,IN PROGRESS,ENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,Medium,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,16/Mar/23 9:02 AM,11/Apr/23 4:37 PM,13/Apr/23 8:25 AM,,,Parada de Abril 2023,,17/Apr/23 12:00 AM,0,"COP (Bruno ou William) irá auxiliar nesta atividade. Teste deverá ser feito no rack sinalizado em vermelho, já com sensor de vazamento.
+
+[~accountid:62bf029efbc1f7c647b9f327] 
+
+!image-20230403-165818.png|width=177,height=92!
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Orientações fornecidas ao COP e teste finalizado e conclusões registradas.
+
+----",,Gabriel Brunheira,Patricia Henriques Nallin,,,70121:016a6576-395b-4462-b1e7-fb210bae9d77,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,ENT004012-124,,,,,,,,03/Apr/23 1:59 PM;ug:1c8930e2-70b4-400d-8217-6307afdf6874;image-20230403-165818.png;https://cnpem.atlassian.net/secure/attachment/15582/image-20230403-165818.png,,,,,,,,,,,,,,,,,,,,,,,ENT004012-2,TIP - INSTALAÇÃO/PERFORMANCE TÉCNICA,,,,,,,,Impediment,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02kun:,,,,,,,,,,,2023 - ENT004.012 SPRINT 05,,17/Apr/23 12:00 AM,8.0,,,17/Apr/23 12:00 AM,17/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,2023-04-11 12:03:25.425,"11/Apr/23 9:03 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flag) Flag added
+
+1º - Qual o Alerta ? Impedimento: Atividade depende da conclusão de reformas nos módulos de potência das fontes tipo FAC-DCDC (QD, SD e SF do Booster) que o CoP está fazendo.
+
+2º - Qual é o problema? Durante as reformas em andamento pelo CoP, descobriu-se dois problemas: um que exige um trabalho da FER (para o qual foi lançado uma atividade no Jira Service) e um que exigiu um auxílio do pessoal da hidráulica, que já está encaminhado. É necessário que o trabalho da FER seja realizado o quanto antes, para que o CoP possa concluir a atividade deles, para que então possamos fazer esta aqui.
+
+3º - Qual o impacto na história? Caso as fontes não estejam prontas até o fim do sprint, não haverá tempo para realizar estes testes antes do fim da parada de Abril.
+
+4º - A quem deverá ser direcionado? [~accountid:62b0aca099eafa602d879d3f] [~accountid:624269be1da0e100713854e9]",,,,,,In Progress
+[LDC] Validar atuação de interlock de correntes de fuga via UDC,ENT004012-136,27396,Story,To Do,ENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,Medium,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,16/Mar/23 8:54 AM,11/Apr/23 9:56 AM,11/Apr/23 9:52 AM,,,Parada de Abril 2023,,17/Apr/23 12:00 AM,0,"* TUNEL FECHADO
+
+COP realizará o teste após o fechamento do túnel, dia 17/abril.
+
+
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Teste realizado e informações coletadas.
+
+----",,Gabriel Brunheira,Patricia Henriques Nallin,,,70121:016a6576-395b-4462-b1e7-fb210bae9d77,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,ENT004012-134,ENT004012-80,ENT004012-141,ENT004012-143,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT004012-2,TIP - INSTALAÇÃO/PERFORMANCE TÉCNICA,,,,,,,,Impediment,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02ktz:,,,,,,,,,,,2023 - ENT004.012 SPRINT 05,,17/Apr/23 12:00 AM,5.0,,,17/Apr/23 12:00 AM,17/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,2023-04-11 12:03:17.802,"11/Apr/23 9:03 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flag) Flag added
+
+1º - Qual o Alerta ? Impedimento: Atividade depende da conclusão de reformas nos módulos de potência das fontes tipo FAC-DCDC (QD, SD e SF do Booster) que o CoP está fazendo.
+
+2º - Qual é o problema? Durante as reformas em andamento pelo CoP, descobriu-se dois problemas: um que exige um trabalho da FER (para o qual foi lançado uma atividade no Jira Service) e um que exigiu um auxílio do pessoal da hidráulica, que já está encaminhado. É necessário que o trabalho da FER seja realizado o quanto antes, para que o CoP possa concluir a atividade deles, para que então possamos fazer esta aqui.
+
+3º - Qual o impacto na história? A atualização de firmware pode até ser concluída, mas não haveria um tempo adequado para testes.
+
+4º - A quem deverá ser direcionado? [~accountid:62b0aca099eafa602d879d3f] [~accountid:624269be1da0e100713854e9] ",,,,,,To Do
+[Vazamento] Instalação dos ferrite beads nos cabos dos sensores de vazamento e medidas de temperatura em racks da Sala de Fontes e LTs,ENT004012-125,23894,Story,DONE,ENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,High,Done,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,26/Jan/23 10:48 AM,12/Apr/23 2:11 PM,04/Apr/23 4:34 PM,12/Apr/23 2:11 PM,,Parada de Abril 2023,,10/Apr/23 12:00 AM,0,"Instalação dos ferrite beads nos cabos dos sensores de vazamento e medidas de temperatura em racks da Sala de Fontes e Linhas de Transporte.
+
+[~accountid:63d01fd6c565900ff40519b9] 
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Ferrites instalados e monitoramento dos valores no archiver, para validar a remoção de ruídos.
+
+----",,Patricia Henriques Nallin,,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT004012-2,TIP - INSTALAÇÃO/PERFORMANCE TÉCNICA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0219e:,,,,,,,,,,,2023 - ENT004.012 SPRINT 05,,10/Apr/23 12:00 AM,5.0,,,10/Apr/23 12:00 AM,10/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,,,,,,,Done
+[LDC] Atualizar firmware dos módulos FAC-DCDC para habilitar leitura e interlock da corrente de fuga via UDC,ENT004012-80,19458,Story,IN PROGRESS,ENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,High,,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,24/Oct/22 4:56 PM,14/Apr/23 8:18 AM,04/Apr/23 4:34 PM,,,Parada de Abril 2023,,10/Apr/23 12:00 AM,0,"* Atualizar firmware dos módulos FAC-DCDC (QD, SF e SF do Booster) para habilitar leitura da corrente de fuga via UDC
+* Conectar cabo LDC-UDC
+
+[~accountid:63d01fd6c565900ff40519b9] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Ter a leitura de fuga com interlocks ativados e IOCs atualizados para proteção das fontes
+
+----",,Gabriel Brunheira,,,,70121:016a6576-395b-4462-b1e7-fb210bae9d77,,,,,,,,,,,,,,,,,ENT004012-141,,,,,ENT004012-134,ENT004012-135,ENT004012-136,ENT004012-142,,,,,,,,,,,,,,,,,,,,,,,,ENT004012-2,TIP - INSTALAÇÃO/PERFORMANCE TÉCNICA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i01fvm:,,,,,,,,,,,2023 - ENT004.012 SPRINT 05,,10/Apr/23 12:00 AM,5.0,,,10/Apr/23 12:00 AM,10/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,"11/Apr/23 9:03 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flag) Flag added
+
+1º - Qual o Alerta ? Impedimento: Atividade depende da conclusão de reformas nos módulos de potência das fontes tipo FAC-DCDC (QD, SD e SF do Booster) que o CoP está fazendo.
+
+2º - Qual é o problema? Durante as reformas em andamento pelo CoP, descobriu-se dois problemas: um que exige um trabalho da FER (para o qual foi lançado uma atividade no Jira Service) e um que exigiu um auxílio do pessoal da hidráulica, que já está encaminhado. É necessário que o trabalho da FER seja realizado o quanto antes, para que o CoP possa concluir a atividade deles, para que então possamos fazer esta aqui.
+
+3º - Qual o impacto na história? A atualização de firmware pode até ser concluída, mas não haveria um tempo adequado para testes.
+
+4º - A quem deverá ser direcionado? [~accountid:62b0aca099eafa602d879d3f] [~accountid:624269be1da0e100713854e9] [~accountid:62bb024e018dea0d4073dbdd]","11/Apr/23 9:45 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flagoff) Flag removed
+
+SEI e CoP encontraram uma forma de atualizar o firmware dos módulos de potência sem que as atividades da FER e CoP mencionadas estejam concluídas.",,,,,In Progress
+[UDC] Atualizar firmware das fontes FAC/FAP (Sala de Fontes + LT) para versão mais recente,ENT004012-141,27991,Story,IN PROGRESS,ENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,High,,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,03/Apr/23 12:22 AM,11/Apr/23 3:54 PM,03/Apr/23 4:30 PM,,,Parada de Abril 2023,,14/Apr/23 12:00 AM,0,"* Atualizar firmware das fontes FAC/FAP após alteração em fw para contemplar a leitura de corrente de fuga via UDC. Esses controladores não farão a respectiva leitura, mas ouveram algumas organizações de variáveis BSMP de FAC-* e atualizaremos as demais do mesmo local físico (Sala de Fontes e LT) para padronização de versão.
+
+Ana Clara/SWC ciente, serão necessários pequenos ajustes no IOC de algumas fontes.
+
+Montar calendário de atualização e repassar aos envolvidos.
+
+Atualização via Gang Programmer.
+
+(57 unidades)
+
+
+
+[~accountid:63d01fd6c565900ff40519b9]  /  [~accountid:62bb04adde439ce00ee39aa9] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Firmware atualizado para v0.45.0 e IOC atualizado
+
+----",,Patricia Henriques Nallin,Rogério José Marcondeli,,,62b0acb8f38b4dcf73d839ec,62bb024e018dea0d4073dbdd,,,,,,,,,,,,,,,,ENT004012-143,ENT004012-80,,,,ENT004012-134,ENT004012-135,ENT004012-136,ENT004012-142,,,,,,,,,,,,,,,,,,,,,,,,ENT004012-2,TIP - INSTALAÇÃO/PERFORMANCE TÉCNICA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02o2v:,,,,,,,,,,,2023 - ENT004.012 SPRINT 05,,10/Apr/23 12:00 AM,13.0,,,14/Apr/23 12:00 AM,10/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,2023-04-11 18:50:55.555,11/Apr/23 3:50 PM;62bb024e018dea0d4073dbdd;Atualizado firmware das fontes de Dipolos do Anel. ,11/Apr/23 3:51 PM;62bb024e018dea0d4073dbdd;Atualizado firmware das fontes de Sextupolos do Anel. ,11/Apr/23 3:52 PM;62bb024e018dea0d4073dbdd;Atualizado firmware de todas as fontes da linha de transporte. ,11/Apr/23 3:54 PM;62bb024e018dea0d4073dbdd;Atualizado firmware da fonte de quadrupolos QF do Booster. ,,,In Progress
+[IIB] Atualizar firmware das IIBs de FAC/FAP (após habilitar leitura e interlock da corrente de fuga via UDC),ENT004012-142,27992,Story,IN PROGRESS,ENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,Medium,,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,03/Apr/23 12:27 AM,11/Apr/23 3:57 PM,10/Apr/23 7:58 AM,,,Parada de Abril 2023,,14/Apr/23 12:00 AM,0,"* Atualizar firmware das IIB FAC/FAP após alteração em fw para contemplar a leitura de corrente de fuga via UDC. Ouveram algumas organizações de variáveis BSMP de FAC-* e atualizaremos as demais do mesmo local físico (Sala de Fontes e LT) para padronização de versão.
+
+Verificar calendário de atualizações junto com a Ana Clara
+
+[~accountid:63d01fd6c565900ff40519b9]  / [~accountid:62bb04adde439ce00ee39aa9] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Firmware atualizado para versão v1.0.0
+
+----",,Patricia Henriques Nallin,Rogério José Marcondeli,,,62b0acb8f38b4dcf73d839ec,62bb024e018dea0d4073dbdd,,,,,,,,,,,,,,,,,ENT004012-135,ENT004012-80,ENT004012-141,ENT004012-143,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT004012-2,TIP - INSTALAÇÃO/PERFORMANCE TÉCNICA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02o33:,,,,,,,,,,,2023 - ENT004.012 SPRINT 05,,10/Apr/23 12:00 AM,13.0,,,14/Apr/23 12:00 AM,10/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,2023-04-11 18:55:45.078,11/Apr/23 3:55 PM;62bb024e018dea0d4073dbdd;Atualizado firmware das fontes de Dipolos do Anel. ,11/Apr/23 3:56 PM;62bb024e018dea0d4073dbdd;Atualizado firmware das fontes de Sextupolos do Anel. ,11/Apr/23 3:57 PM;62bb024e018dea0d4073dbdd;Atualizado firmware de todas as fontes da linha de transporte.,11/Apr/23 3:57 PM;62bb024e018dea0d4073dbdd;Atualizado firmware da fonte de quadrupolos QF do Booster.,,,In Progress
+[LDC] Atualizar firmware das IIBs dos módulos FAC-DCDC (após habilitar leitura e interlock da corrente de fuga via UDC),ENT004012-135,27379,Story,DONE,ENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,High,Done,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,15/Mar/23 4:55 PM,14/Apr/23 2:06 PM,11/Apr/23 9:04 AM,14/Apr/23 2:06 PM,,Parada de Abril 2023,,10/Apr/23 12:00 AM,0,"*  FAC-DCDC (QD, SF e SF do Booster) 
+* Atualização para remover as variáveis que não serão monitoradas por esses módulos
+
+[~accountid:63d01fd6c565900ff40519b9] [~accountid:62bb04adde439ce00ee39aa9] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Firmware atualizado.
+
+----",,Gabriel Brunheira,Patricia Henriques Nallin,Rodrigo Ribeiro Cézar,Wilbert Reis,70121:016a6576-395b-4462-b1e7-fb210bae9d77,62b0acb8f38b4dcf73d839ec,624269be1da0e100713854e9,62bc37fa9e6ba34c99368717,,,,,,,,,,,,,,ENT004012-142,,ENT004012-80,ENT004012-141,ENT004012-143,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT004012-2,TIP - INSTALAÇÃO/PERFORMANCE TÉCNICA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i01fxg:,,,,,,,,,,,2023 - ENT004.012 SPRINT 05,,10/Apr/23 12:00 AM,5.0,,,10/Apr/23 12:00 AM,10/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,2023-04-11 12:11:04.945,"11/Apr/23 9:03 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flag) Flag added
+
+1º - Qual o Alerta ? Impedimento: Atividade depende da conclusão de reformas nos módulos de potência das fontes tipo FAC-DCDC (QD, SD e SF do Booster) que o CoP está fazendo.
+
+2º - Qual é o problema? Durante as reformas em andamento pelo CoP, descobriu-se dois problemas: um que exige um trabalho da FER (para o qual foi lançado uma atividade no Jira Service) e um que exigiu um auxílio do pessoal da hidráulica, que já está encaminhado. É necessário que o trabalho da FER seja realizado o quanto antes, para que o CoP possa concluir a atividade deles, para que então possamos fazer esta aqui.
+
+3º - Qual o impacto na história? A atualização de firmware pode até ser concluída, mas não haveria um tempo adequado para testes.
+
+4º - A quem deverá ser direcionado? [~accountid:62b0aca099eafa602d879d3f] [~accountid:624269be1da0e100713854e9] [~accountid:62bb024e018dea0d4073dbdd]","11/Apr/23 9:11 AM;624269be1da0e100713854e9;[~accountid:70121:016a6576-395b-4462-b1e7-fb210bae9d77] [~accountid:62bc37fa9e6ba34c99368717] por favor, verifique os alertas do Gabriel ","11/Apr/23 9:21 AM;62bc37fa9e6ba34c99368717;[~accountid:70121:016a6576-395b-4462-b1e7-fb210bae9d77]  qual o número da solicitação no Service?
+
+PS: Se esta impedindo alguma atividade de projeto não é serviço.","11/Apr/23 9:45 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flagoff) Flag removed
+
+SEI e CoP encontraram uma forma de atualizar o firmware dos módulos de potência sem que as atividades da FER e CoP mencionadas estejam concluídas.","11/Apr/23 10:01 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;[~accountid:62bc37fa9e6ba34c99368717]  cheque com o [~accountid:62b0aca099eafa602d879d3f] ou [~accountid:62b0aca15479e75d631b4552], mas acho que o Will já passou na FER para tratar isso.","11/Apr/23 10:14 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;[~accountid:62bc37fa9e6ba34c99368717]  esclarecendo: nós do SEI estamos com essa atividade de projeto (ENT004.012) que estava impedida por uma atividade de manutenção do CoP (ENT002.001). Por isso que o CoP fez pelo Jira Services. É uma situação ambígua, mas para manter a consistênci,a, nós do SEI, CoP e o [~accountid:6254674756e5a8006dd8afb7] achamos que essa era a melhor maneira mesmo. A urgência tratamos então através da ida que o William fez pessoalmente aí na FER, bem como via flags, marcações, SoSoS, etc.",Done
+[DRS] Preparar material/equipamentos para atualização de firmware UDC e IIB,ENT004012-143,28042,Story,DONE,ENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,High,Done,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,03/Apr/23 10:39 AM,10/Apr/23 12:28 PM,03/Apr/23 4:35 PM,10/Apr/23 10:06 AM,,,,07/Apr/23 12:00 AM,0,"* -Preparar Gang Programmer com a versão mais recente de firmware v0.45.0 (ARM + DSP)-
+* -Preparar notebook para carregamento de aquivo binário nas IIBs (uniflash e CCS). Tentar com o Linux-
+* -Confirmar com COP os valores de interlock (mesmo padrão?)-
+* -Atualizar banco de parâmetros pra FAC-DCDC (EMA, QD, SD, SF) no github-
+* -Gerar binário específico para gavetas que não possuem LDC ativada-
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Setup preparado para atualizações no Sirius.
+
+----",,Patricia Henriques Nallin,,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,ENT004012-141,,,,ENT004012-134,ENT004012-135,ENT004012-136,ENT004012-142,,,,,,,,,,,,,,,,,,,,,,,,ENT004012-2,TIP - INSTALAÇÃO/PERFORMANCE TÉCNICA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02obr:,,,,,,,,,,,2023 - ENT004.012 SPRINT 05,,03/Apr/23 12:00 AM,13.0,,,07/Apr/23 12:00 AM,03/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,,,,,,,Done
+[LDC] Validar leitura de correntes de fuga via UDC após atualização de IOC no Sistema de Controle,ENT004012-134,27378,Story,To Do,ENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,Medium,,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,15/Mar/23 4:55 PM,11/Apr/23 9:56 AM,11/Apr/23 9:52 AM,,,Parada de Abril 2023,,17/Apr/23 12:00 AM,0,"* Acompanhar atualização do sistema de controle pela Ana Clara (SwC)
+* Validar leitura após testes de túnel fechado do COP
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Leituras correspondentes aos valores ajustados durante os testes do COP
+
+----",,Gabriel Brunheira,Patricia Henriques Nallin,,,70121:016a6576-395b-4462-b1e7-fb210bae9d77,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,ENT004012-136,,ENT004012-80,ENT004012-141,ENT004012-143,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT004012-2,TIP - INSTALAÇÃO/PERFORMANCE TÉCNICA,,,,,,,,Impediment,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i01fwu:,,,,,,,,,,,2023 - ENT004.012 SPRINT 05,,17/Apr/23 12:00 AM,3.0,,,17/Apr/23 12:00 AM,17/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,"11/Apr/23 9:03 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flag) Flag added
+
+1º - Qual o Alerta ? Impedimento: Atividade depende da conclusão de reformas nos módulos de potência das fontes tipo FAC-DCDC (QD, SD e SF do Booster) que o CoP está fazendo.
+
+2º - Qual é o problema? Durante as reformas em andamento pelo CoP, descobriu-se dois problemas: um que exige um trabalho da FER (para o qual foi lançado uma atividade no Jira Service) e um que exigiu um auxílio do pessoal da hidráulica, que já está encaminhado. É necessário que o trabalho da FER seja realizado o quanto antes, para que o CoP possa concluir a atividade deles, para que então possamos fazer esta aqui.
+
+3º - Qual o impacto na história? A atualização de firmware pode até ser concluída, mas não haveria um tempo adequado para testes.
+
+4º - A quem deverá ser direcionado? [~accountid:62b0aca099eafa602d879d3f] [~accountid:624269be1da0e100713854e9] ",,,,,,To Do
+SEI: Preparar placas para gaveta reserva do NLK,ENT004022-214,28098,Story,DONE,ENT004022,ENT004.022 - PROJETO DE NOVO NLK PARA TOP-UP,software,Ruy Farias,6266f26cd364ae006808a2e6,"ESCOPO:
+Reduzir as perturbações produzidas pelo NLK (Non-linear kicker) sobre o feixe armazenado do anel de armazenamento do Sirius.",,Highest,Done,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,03/Apr/23 11:34 AM,11/Apr/23 3:19 PM,10/Apr/23 5:16 PM,11/Apr/23 3:19 PM,,,,21/Apr/23 12:00 AM,0,"Preparar placas para gaveta reserva do NLK.
+
+O ideal seriam 4 unidades (2 pra reserva do Sirius + 2 pra gaveta de desenvolvimento na sala do ISP)
+
+* Regravar firmware da CPLD
+* Calibrar as placas
+
+[~accountid:62bb024e018dea0d4073dbdd] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Entrega das 4 unidades para o grupo ISP.
+
+----",,Patricia Henriques Nallin,,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT004022-2,FDR - DESENVOLVIMENTO EXPERIMENTAL /PROJETO EXECUTIVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02olb:,,,,,,,,,,,2023 Sprint 5,,03/Apr/23 12:00 AM,8.0,,,21/Apr/23 12:00 AM,03/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,,,,,,,Done
+SEI - Prototipagem e montagem de eletrônica de acionamento de drivers,PENT004032-54,27760,Story,DONE,PENT004032,ENT004.032 - Ondulador PAPU,software,Ruy Farias,6266f26cd364ae006808a2e6,ESCOPO: Projeto e construção de um ondulador para comissionamento das linhas de luz do Sirius utilizando peças do protótipo do ondulador EPU do UVX.,,Medium,Done,Robert Willian Polli,62bf029efbc1f7c647b9f327,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,28/Mar/23 10:55 AM,10/Apr/23 10:33 AM,10/Apr/23 10:33 AM,06/Apr/23 1:19 PM,,,,21/Apr/23 12:00 AM,0,"Montar uma SerialXXCON com o circuito de acionamento dos drivers dos motores, sendo eles: 
+
+* PCB
+* Relés
+* Trilho DIN
+* Tomada
+
+IMA fará a montagem no rack.
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Ter o conjunto de hardware montado e operacional.
+
+----",,Patricia Henriques Nallin,,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,PENT004032-19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004032-5,Movimentação e Controle (Automação),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02m31:zr,,,,,,,,,,,2023 Sprint 5,,03/Apr/23 12:00 AM,8.0,,,21/Apr/23 12:00 AM,03/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,,,,,,,Done
+SEI - Preparação e configuração de SERIALxxCON para interface de acionamento de drivers,PENT004032-55,27761,Story,DONE,PENT004032,ENT004.032 - Ondulador PAPU,software,Ruy Farias,6266f26cd364ae006808a2e6,ESCOPO: Projeto e construção de um ondulador para comissionamento das linhas de luz do Sirius utilizando peças do protótipo do ondulador EPU do UVX.,,Medium,Done,Robert Willian Polli,62bf029efbc1f7c647b9f327,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,28/Mar/23 10:55 AM,05/Apr/23 2:50 PM,05/Apr/23 2:25 PM,05/Apr/23 2:50 PM,,,,21/Apr/23 12:00 AM,0,"Instalar e testar os scripts do serviço de socket do EPU, disponível [aqui|https://github.com/cnpem-sei/epu-interface-sw], interfaceando o IOC de controle.
+
+Trocar EPU por PAPU (se possível)
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Serviço de software instalado, validado e rodando automaticamente.
+
+----",,Patricia Henriques Nallin,,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,PENT004032-19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004032-5,Movimentação e Controle (Automação),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02m31:zv,,,,,,,,,,,2023 Sprint 5,,03/Apr/23 12:00 AM,5.0,,,21/Apr/23 12:00 AM,03/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,,,,,,,Done
+Levantamento de componentes eletrônicos para projeto de fontes de corrente para sensores Hall do criostato vertical,PENT034001-218,26758,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,,Bruno Gomes de Oliveira,63d01fd6c565900ff40519b9,James Citadini,6250da2ea629c30068aa63af,João Henrique Ramos,62b0b0e65479e75d631b489a,09/Mar/23 9:36 AM,10/Apr/23 12:36 PM,10/Apr/23 12:35 PM,,FDR,Setup de Caracterização,,21/Apr/23 12:00 AM,0,"Levantamento de componentes eletrônicos para projeto de fontes de corrente para sensores Hall do criostato vertical, análise de datasheets e grandezas elétricas.
+
+[~accountid:62b0acb8f38b4dcf73d839ec] 
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Ter as especificações mínimas da fonte de corrente e os circuitos integrados selecionados.
+
+----",,João Henrique Ramos,,,,62b0b0e65479e75d631b489a,,,,,,,,,,,,PENT034001-216,PENT034001-285,PENT034001-222,,,,,PENT034001-74,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02chx:,,,,,,,,,,,2023 Sprint 5,,03/Apr/23 12:00 AM,13.0,,,21/Apr/23 12:00 AM,03/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,,,,,,,To Do
+Separar material de hardware para topologia de controle da fonte,PENT034001-136,26644,Story,IN PROGRESS,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,,,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,07/Mar/23 3:19 PM,12/Apr/23 8:16 AM,10/Apr/23 12:35 PM,,FDR,Controlador do conversor,,21/Apr/23 12:00 AM,0,"Separação do material necessário para implementar a topologia de controle da fonte para o criostato vertical.
+
+[~accountid:62bb024e018dea0d4073dbdd] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Material levantado, listado e separado, não precisa estar preparado/atualizado.
+
+----",,Patricia Henriques Nallin,,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,PENT034001-135,,,,,,,PENT034001-35,,,PENT034001-330,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-5,Fontes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02c0b:n,,,,,,,,,,,2023 Sprint 5,,03/Apr/23 12:00 AM,8.0,,,21/Apr/23 12:00 AM,03/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,,,,,,,In Progress
+Projetar esquemático para o driver de acionamento dos contatores do circuito de extração,PENT034001-200,26739,Story,IN PROGRESS,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,High,,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/Mar/23 7:42 AM,10/Apr/23 4:58 PM,03/Apr/23 4:44 PM,,FDR,Extração,Hardware,21/Apr/23 12:00 AM,0,"Proteção de quench.
+
+Uma vez a detecção realizada e proteção acionada, é necessário acionar contatores para direcionar a corrente ao circuito de extração. Essa história contepla o projeto do circuito de acionamento para os drivers.
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Circuito finalizado, esquemático no Github/SharePoint, partnumbers e foorprints de componentes definidos.
+
+----",,Patricia Henriques Nallin,,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,PENT034001-199,,PENT034001-131,,,PENT034001-361,,PENT034001-71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02cgs:r,,,,,,,,,,,2023 Sprint 5,,03/Apr/23 12:00 AM,13.0,,,21/Apr/23 12:00 AM,10/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,,,,,,,In Progress
+"Desenvolver incremento de firmware do UDC (controlador), incluindo especificação de variáveis BSMP",PENT034001-137,26645,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,07/Mar/23 3:19 PM,10/Apr/23 12:31 PM,10/Apr/23 12:25 PM,,FDR,Controlador do conversor,,21/Apr/23 12:00 AM,0,"Especificação e implemento de fw considerando necessidades do controlador para o criostato vertical, incluindo variáveis para IIB.
+
+([~accountid:62bb024e018dea0d4073dbdd] marcado aqui, por conta das variáveis da iib)
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Especificação “digitalizada”, tabela BSMP atualizada, firmware considerando o CV em branch do github.
+
+----",,Patricia Henriques Nallin,,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,PENT034001-135,,PENT034001-139,PENT034001-198,,,,PENT034001-35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-5,Fontes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02c0b:t,,,,,,,,,,,2023 Sprint 5,,03/Apr/23 12:00 AM,21.0,,,21/Apr/23 12:00 AM,03/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,,,,,,,To Do
+Solicitação de compras para fabricação da placa final de detecção de quench para o criostato vertical (QCD-CV),PENT034001-156,26676,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Low,,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,08/Mar/23 9:41 AM,10/Apr/23 12:26 PM,10/Apr/23 12:25 PM,,FDR,Detecção de quench,,21/Apr/23 12:00 AM,0,"Colocar SC para confecção de placa de circuito impresso (PCB) para a versão final do QDC-CV.
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+SC aberta pelo grupo SEI (não necessariamente precisa ter passado por todo o fluxo de aprovação)
+
+----",,Gabriel Brunheira,Patricia Henriques Nallin,,,70121:016a6576-395b-4462-b1e7-fb210bae9d77,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-152,,PENT034001-161,,,,,PENT034001-71,,,,,,,16/Mar/23 4:39 PM;ug:3ccd07a8-c712-417b-8088-cfac810e1cdb;image-20230316-193847.png;https://cnpem.atlassian.net/secure/attachment/14920/image-20230316-193847.png,,,,,,,1500.0,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02cgl:r,,,,,,,,,,,2023 Sprint 5,,03/Apr/23 12:00 AM,5.0,,,21/Apr/23 12:00 AM,03/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,2023-03-16 19:39:17.036,"16/Mar/23 4:39 PM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;Estimativa inicial de preço de R$ 700,00 para fabricação na JLCPCB de:
+
+* 5 placas de 220 x 160 mm
+* 4 layers
+* Acabamento ENIG
+* Stencil
+* Envio por FEDEX
+
+!image-20230316-193847.png|width=458,height=638!
+
+Valor preenchido no budget leva em conta eventuais despesas acessórias.",,,,,,To Do
+Revisão de esquemático do circuito de detecção para o criostato vertical (4 canais),PENT034001-333,27993,Story,IN PROGRESS,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Highest,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,03/Apr/23 12:40 AM,11/Apr/23 5:17 PM,04/Apr/23 11:19 AM,,FDR,Detecção de quench,,21/Apr/23 12:00 AM,0,"Revisão de esquemático do circuito do QDS-CV.
+
+O projeto encontra-se no github.
+
+
+
+[~accountid:70121:016a6576-395b-4462-b1e7-fb210bae9d77] 
+
+[~accountid:63d01fd6c565900ff40519b9] 
+
+[~accountid:62b0acb8f38b4dcf73d839ec] 
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Esquemático revisado.
+
+----",,Patricia Henriques Nallin,,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,PENT034001-152,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02cgj:,,,,,,,,,,,2023 Sprint 5,,03/Apr/23 12:00 AM,21.0,,,21/Apr/23 12:00 AM,03/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,,,,,,,In Progress
+Prototipar (LPKF) placa de circuito impresso para 1 canal,PENT034001-155,26675,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,,Robert Willian Polli,62bf029efbc1f7c647b9f327,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,08/Mar/23 9:41 AM,12/Apr/23 8:35 AM,04/Apr/23 11:19 AM,,FDR,Detecção de quench,,21/Apr/23 12:00 AM,0,"Prototipar placa com 1 canal de detecção de quench. Incluir a validação do posicionamento dos conectores e dos rasgos nos painéis do case.
+
+[~accountid:62b0928ba58208122d9fbcb5] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+…………..
+
+----",,Gabriel Brunheira,Patricia Henriques Nallin,,,70121:016a6576-395b-4462-b1e7-fb210bae9d77,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-153,,PENT034001-157,,,,,PENT034001-71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02cgl:i,,,,,,,,,,,2023 Sprint 5,,17/Apr/23 12:00 AM,8.0,,,20/Apr/23 12:00 AM,03/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,2023-03-23 16:41:46.984,"23/Mar/23 1:41 PM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flag) Flag added
+
+AVISO/IMPEDIMENTO - Teste da flag","23/Mar/23 1:42 PM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flagoff) Flag removed
+
+Fim do teste.",,,,,To Do
+Layout de placa de circuito impresso para 1 canal - QDS-CV,PENT034001-153,26673,Story,IN PROGRESS,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Highest,,Samuel Fraga,62b0928ba58208122d9fbcb5,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,08/Mar/23 9:40 AM,05/Apr/23 3:54 PM,03/Apr/23 4:47 PM,,FDR,Detecção de quench,,16/Apr/23 12:00 AM,0,"Desenhar a PCB contendo um canal da proteção de quench (sinais analógicos) e todos os canais digitais (dipswitches para “emular” comportamento de outros canais).
+
+* Definir conectores de alimentação
+* Test points
+* 
+
+[~accountid:70121:016a6576-395b-4462-b1e7-fb210bae9d77] 
+
+
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Layout finalizado, gerbers gerados e condicionados para prototipação na LPKF.
+
+----",,Gabriel Brunheira,Patricia Henriques Nallin,,,70121:016a6576-395b-4462-b1e7-fb210bae9d77,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,PENT034001-155,,,,,PENT034001-71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02chx:d,,,,,,,,,,,2023 Sprint 5,,03/Apr/23 12:00 AM,21.0,,,21/Apr/23 12:00 AM,13/Mar/23 12:00 AM,9,SEI,,,,,,,,,,,2023-03-24 11:35:49.67,"24/Mar/23 8:35 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flag) Flag added
+
+1º - Qual o *Alerta* ? Aviso: Prevemos que esta atividade pode não ser concluída nessa sprint.
+
+2º - Qual é o *problema*? Atividade pré-requisito ainda está em andamento e provavelmente teremos que simplificar o escopo deste layout para dar tempo de concluir ainda nessa sprint. Uma outra alternativa é cancelarmos essa atividade, que se tratava de um protótipo, e partirmos para o layout completo (4 canais) sem a execução deste protótipo no próximo sprint.
+
+3º - Qual o *impacto* na história? Impacta na fabricação deste protótipo e no início do layout completo da placa, previstos para a próxima sprint.
+
+4º - A quem deverá ser direcionado? [~accountid:70121:016a6576-395b-4462-b1e7-fb210bae9d77] [~accountid:62b0928ba58208122d9fbcb5] [~accountid:62b0acb8f38b4dcf73d839ec] ",,,,,,In Progress
+Estudo do firmware da eletrônica para mBed Studio,ENT094003-49,26422,Story,IN PROGRESS,ENT094003,ENT094.003 - INTERF. P/ BIOSSENSOR NANOESTRUTURADO P/ MEDIDA NÃO INVAS. GLICEMIA,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+O projeto completo, sob responsabilidade de Dr. Rafael Furlan (LNNano), visa o desenvolvimento de um dispositivo portátil e miniaturizado de iontoforese reversa para a determinação não-invasiva de glicemia (concentração de glicose no sangue). O dispositivo  será composto por três unidades: nanomembrana interfacial, sistema eletródico e transdutor.
+A colaboração com o LNNano se dará pela continuação e aperfeiçoamento do desenvolvimento do transdutor: um sistema eletrônico com comunicação sem fio, responsável pela aplicação de uma corrente de iontoforese reversa e leitura, condicionamento e transmissão dos dados de um biossensor eletroquímico.",,Highest,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,03/Mar/23 2:20 PM,14/Apr/23 8:58 AM,13/Apr/23 8:30 AM,,,,,21/Apr/23 12:00 AM,0,"Estudo e desenvolvimento do firmware da eletrônica para mBed Studio, e a finalização da tarefa de amperometria.
+
+* Análise de código do Ramon
+* -Verificar debug via segger/JTAG (-[~accountid:62bb024e018dea0d4073dbdd]-)-
+
+
+
+Caso haja dificuldade para uso do protótipo CNPEM:
+
+* Verificar possibilidade de utilizar as placas da ST
+* Verificar status do devkit Nina
+* Verificar se há algum outro devkit compatível com mbed os (GIE?)
+
+[~accountid:63d01fd6c565900ff40519b9] 
+
+[~accountid:62bf029efbc1f7c647b9f327] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Fluxograma de firmware, escolha do modo de debug, escolha da plataforma de desenvolvimento com o Nina.",,Gabriel Brunheira,Patricia Henriques Nallin,,,70121:016a6576-395b-4462-b1e7-fb210bae9d77,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,ENT094003-32,,ENT094003-53,ENT094003-48,ENT094003-65,ENT094003-65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT094003-2,FDR - Desenvolvimento Experimental /Projeto Executivo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02a7j:,,,,,,,,,,,2023 - ENT094.003 SPRINT 04,2023 - ENT094.003 SPRINT 05,03/Apr/23 12:00 AM,40.0,,,21/Apr/23 12:00 AM,13/Mar/23 12:00 AM,9,SEI,,,,,,,,,,,2023-03-29 11:58:57.821,"29/Mar/23 8:58 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flag) Flag added
+
+1º - Qual o Alerta ? Impedimento: Validação do firmware ainda não foi concluído, pois diversos desafios técnicos foram sendo encontradas ao longo do desenvolvimento e provavelmente não será possível concluir.
+
+2º - Qual é o problema? Colaborador mais envolvido anunciou saída nesta sprint e esteve ausente em diversos dias por conta desta saída. Além disso, acreditava-se que a validação seria mais simples tecnicamente, por se tratar de um desenvolvimento que já havia sido iniciado por outro colaborador antes.
+
+3º - Qual o impacto na história? Não será possível concluí-la, bem como trava a atividde &quot;Testes em bancada com Nicolli&quot;.
+
+4º - A quem deverá ser direcionado? [~accountid:62e90951e50f2f2a39548aa1][~accountid:62bf029efbc1f7c647b9f327][~accountid:63d01fd6c565900ff40519b9]","13/Apr/23 8:41 AM;62b0acb8f38b4dcf73d839ec;1º - Qual o Alerta ? Impedimento: Estudo de firmware ainda não foi concluído, pois diversos desafios técnicos tem sido encontrados ao longo do processo.
+
+2º - Qual é o problema? Debug e desenvolvimentos de firmware podem ser custosos
+
+3º - Qual o impacto na história? Pode ser que não seja concluída nesse sprint, a compreensão e finalização da implementação que foi feita pelo colaborador anterior (Ramon)
+
+4º - A quem deverá ser direcionado? [~accountid:62b0acb8f38b4dcf73d839ec] [~accountid:62bf029efbc1f7c647b9f327][~accountid:63d01fd6c565900ff40519b9]","14/Apr/23 8:58 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flagoff) Flag removed
+
+Embora as questões técnicas ainda não foram resolvidas, foi entendido com o PO que a definição de pronto dela não depende disso, então o impedimento não faz mais sentido.",,,,In Progress
+Operação em período estendido das smart sleeves,ENT104002-220,27995,Story,IN PROGRESS,ENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,High,,Eduarda Nicoletto Ayres de Oliveira,62bb04adde439ce00ee39aa9,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,03/Apr/23 1:02 AM,14/Apr/23 8:57 AM,03/Apr/23 4:51 PM,,,,,21/Apr/23 12:00 AM,0,"Testes em tempo estendido da operação de todas as SS em 100%, das 08h as 17h.
+
+Bombas em tempo reduzido, para preservar vida-útil.
+
+Fazer cronograma/resultados de testes.
+
+[~accountid:62b0acb8f38b4dcf73d839ec] 
+
+
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Testes realizados e documentação de resultados.
+
+----",,Eduarda Nicoletto Ayres de Oliveira,Patricia Henriques Nallin,,,62bb04adde439ce00ee39aa9,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,ENT104002-208,,,,,,,05/Apr/23 1:19 PM;ug:5b402529-23a2-4594-92ec-2412951ddc9b;image-20230405-161904.png;https://cnpem.atlassian.net/secure/attachment/15942/image-20230405-161904.png,,,,,,,,,,,,,,,,,,,,,,,ENT104002-3,FDR - Desenvolvimento Experimental /Projeto Executivo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02iee:d,,,,,,,,,,,2023 - ENT104.002 Sprint 05,,03/Apr/23 12:00 AM,13.0,,,21/Apr/23 12:00 AM,03/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,2023-04-05 16:19:43.047,"05/Apr/23 1:19 PM;62bb04adde439ce00ee39aa9;!image-20230405-161904.png|width=750,height=488!
+
+[Cronograma|https://cnpemcamp.sharepoint.com/:x:/s/sei/EUlRqu1fkOdDl3nUvQ7nfUsBNiU-MU3HQzOP1Urzwr_qrA?e=K3LyEq]","14/Apr/23 8:57 AM;62bb04adde439ce00ee39aa9;Teste do dia 1: sexta-feira 14/04, início por volta de 8:50",,,,,In Progress
+Integração eletrônica + mecânica para 2a unidade,ENT104002-222,27997,Story,To Do,ENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,Medium,,Eduarda Nicoletto Ayres de Oliveira,62bb04adde439ce00ee39aa9,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,03/Apr/23 1:05 AM,13/Apr/23 8:30 AM,13/Apr/23 8:26 AM,,,,,21/Apr/23 12:00 AM,0,"Montagem da segunda unidade, já integrando ambas as partes. EBI deve auxiliar.
+
+[~accountid:62b0acb8f38b4dcf73d839ec] 
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Segunda unidade montada e validação inicial de funcionamento (apenas leituras/atuações simples)
+
+----",,Patricia Henriques Nallin,,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT104002-3,FDR - Desenvolvimento Experimental /Projeto Executivo,,,,,,,,Impediment,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02iee:f,,,,,,,,,,,2023 - ENT104.002 Sprint 05,,03/Apr/23 12:00 AM,8.0,,,21/Apr/23 12:00 AM,03/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,2023-04-13 11:30:15.381,"13/Apr/23 8:30 AM;62b0acb8f38b4dcf73d839ec;1º - Qual o Alerta ? Impedimento: Atividade depende de ter as peças mecânicas, que não ficarão prontas nesse sprint.
+
+2º - Qual é o problema?  Processo de fabricação das peças não terá tempo de ser concluído a tempo (externo)
+
+3º - Qual o impacto na história? Será reprogramada para o próximo sprint caso necessário. ACA/EBI ciente.
+
+4º - A quem deverá ser direcionado?  [~accountid:62dad94ea6c0a53fd7ee1230]",,,,,,To Do
+Definir arquitetura de controle e comunicação de alto nível,ENT104002-208,26939,Story,IN PROGRESS,ENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,Medium,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,13/Mar/23 7:59 AM,13/Apr/23 8:20 AM,03/Apr/23 4:50 PM,,,,,21/Apr/23 12:00 AM,0,"Definir arquitetura de controle e comunicação de alto nível, contemplando os processos, a infraestrutura de rede, a troca de informações, e permissões de aplicações.
+
+
+
+[~accountid:62bb04adde439ce00ee39aa9] 
+
+
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Arquitetura bem definida, de forma a permitir que as três frentes se desenvolvam em paralelo.
+
+Fluxograma da arquitetura no SharePoint.
+
+----",,Patricia Henriques Nallin,,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,ENT104002-219,ENT104002-220,ENT104002-221,,,,,,,,,,,,,,,,,,,,,,,,,ENT104002-3,FDR - Desenvolvimento Experimental /Projeto Executivo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02iee:,,,,,,,,,,,2023 - ENT104.002 Sprint 05,,03/Apr/23 12:00 AM,13.0,,,21/Apr/23 12:00 AM,03/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,,,,,,,In Progress
