@@ -1,0 +1,31 @@
+------------------------------------------------------------
+*****  SPRINT 06/2023         (09-05-2023)  *****
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+TOTAL DE PROJETOS ENT: 4
+
+ENT004.039 - CONTROLE E SUPERVISÃO DAS FONTES DE RACKS DE BPMS
+ENT034.001 - Projeto de um Wavelengthshifter - WLS
+ENT094.003 - INTERF. P/ BIOSSENSOR NANOESTRUTURADO P/ MEDIDA NÃO INVAS. GLICEMIA
+ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS.
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+TOTAL
+# ATIVIDADES: 23
+PONTOS PLANEJADOS: 323
+26.92 pontos/dia útil
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+STATUS		#PONTOS		% PONTOS	#ATIVIDADES	% ATIVIDADES
+Done    	115		35.6		10		43.5
+In Progress	187		57.9		11		47.8
+To Do   	21		6.5		2		8.7
+Total		323				23
+------------------------------------------------------------
