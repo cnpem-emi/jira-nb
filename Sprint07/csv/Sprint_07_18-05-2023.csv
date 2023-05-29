@@ -1,0 +1,322 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Project url,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Fix versions,Components,Components,Components,Due date,Votes,Description,Environment,Watchers,Watchers,Watchers,Watchers Id,Watchers Id,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Inward issue link (Cloners),Outward issue link (Cloners),Inward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Attachment,Attachment,Custom field (Activity Code),Custom field (Actual end),Custom field (Actual start),Custom field (Affected hardware),Custom field (Affected services),Custom field (Backout plan),Custom field (Balance (R$)),Custom field (Budget (R$)),Custom field (Category),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Client),Custom field (Compass),Custom field (Criteria - Consequence),Custom field (Criteria - HR),Custom field (Criteria - Indicators),Custom field (Criteria - Reputation),Custom field (Criteria - Time Window),Custom field (Department),Custom field (Designer),Custom field (Development),Custom field (E-mail),Custom field (Employee location),Custom field (Employment type),Custom field (Epic Link),Epic Link Summary,Custom field (Event count),Custom field (Event date),Custom field (Event location),Custom field (Expense (R$)),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (Group),Custom field (Impact),Custom field (Implementation plan),Custom field (Investigation reason),Custom field (Issue color),Custom field (Job title),Custom field (Last working day),Custom field (Locked forms),Custom field (Maintenance location),Custom field (Maintenance type),Custom field (Major incident),Custom field (Manufacturing Options),Custom field (Move count),Custom field (Move date),Custom field (Move from),Custom field (Move to),Custom field (Number of Parts),Custom field (Open forms),Custom field (Operational categorization),Custom field (Origem),Custom field (Party Name),Custom field (Pending reason),Custom field (Planned end),Custom field (Planned start),Custom field (Priority Grade),Custom field (Priority Index),Custom field (Priority Score for Advanced Roadmaps),Custom field (Product categorization),Custom field (Rank),Custom field (Reference),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Resignation date),Custom field (Responders),Custom field (Root cause),Satisfaction rating,Custom field (Severity),Custom field (Source),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Team Id,Team Name,Custom field (Tempo de primeiro atendimento),Custom field (Test plan),Custom field (Time to close after resolution),Custom field (Time to first response),Custom field (Time to resolution),Custom field (Time to review normal change),Custom field (Total forms),Custom field (Unit),Custom field (Urgency),Custom field (Work category),Custom field (Workaround),Custom field ([CHART] Date of First Response),Comment,Comment,Comment,Comment,Status Category
+Imprimir cases para sensores de vazamento,PENT004012-21,30167,Story,IN PROGRESS,PENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,High,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 2:26 PM,17/May/23 10:18 AM,16/May/23 7:53 AM,,TIP,,,,,0,"Via Ferramentaria !
+
+Abrir Jira Service
+
+
+
+----
+
+DoD:
+
+Serviço aberto e peças entregues ao grupo SEI
+
+----",,Patricia Henriques Nallin,Robert Willian Polli,,62b0acb8f38b4dcf73d839ec,62bf029efbc1f7c647b9f327,,,,,,,,,,,,,,,PENT004012-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004012-8,Sensores de Vazamento,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02xfh:,,,,,,,,,,,2023 Sprint 7,,5.0,,,,,9,SEI,,,,,,,,,,,,2023-05-17 13:18:08.814,17/May/23 10:18 AM;62bf029efbc1f7c647b9f327;Jira Service aberto. [https://cnpem.atlassian.net/servicedesk/customer/portal/17/SSENT1-1448?created=true|https://cnpem.atlassian.net/servicedesk/customer/portal/17/SSENT1-1448?created=true|smart-link] ,,,,In Progress
+SEI - Apoiar a instalação de sensores de temperatura Pt100 no corpo do ondulador para testes de ciclagem para validação da câmara de vácuo,PENT004031-38,30463,Story,To Do,PENT004031,ENT004.031 - PROTÓTIPO DO ONDULADOR DU525 DA LINHA SABIÁ,software,Ruy Farias,6266f26cd364ae006808a2e6,"ESCOPO:
+Projeto, construção e Instalação de ondulador Delta para a linha Sabiá, com período de 52,5 mm, composto por um módulo de 1,2 m de comprimento, e todos os subsistemas necessários para a sua instalação e operação.",,High,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Sergio Henrique Sona,6254674756e5a8006dd8afb7,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,15/May/23 8:31 AM,15/May/23 4:55 PM,18/May/23 10:54 AM,,TIP,,,,02/Jun/23 12:00 AM,0,"Apoiar a instalação de sensores de temperatura Pt100 e validar leituras de temperatura.
+
+[~accountid:62bf029efbc1f7c647b9f327] 
+
+[~accountid:62bb04adde439ce00ee39aa9] 
+
+DoD:
+
+Sensores instalados, leituras validadas.",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,PENT004031-24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004031-5,Sistema de Vácuo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02zir:,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Definir de topologia de comunicação e parâmetros de operação das fontes corretoras para atualização do banco de dados do control-system-constants e preparação do controlador,PENT004032-58,27764,Story,IN PROGRESS,PENT004032,ENT004.032 - Ondulador PAPU,software,Ruy Farias,6266f26cd364ae006808a2e6,ESCOPO: Projeto e construção de um ondulador para comissionamento das linhas de luz do Sirius utilizando peças do protótipo do ondulador EPU do UVX.,,High,,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,28/Mar/23 11:02 AM,17/May/23 10:43 AM,15/May/23 9:29 AM,,,,,,02/Jun/23 12:00 AM,0,"[~accountid:62b0acb8f38b4dcf73d839ec] 
+
+[~accountid:63d01fd6c565900ff40519b9] 
+
+[~accountid:62b0aca099eafa602d879d3f] 
+
+Fontes de Corrente para corretoras
+
+DoD:
+
+Rack para instalação, BBB da rede serial, endereços serial, nome das fontes, sinais de sincronismo, limites de operação e proteção, parâmetros das cargas, tensão de DC-Link, quantidade de BIDs e curva de ciclagem definidos.",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,PENT004032-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004032-7,Corretoras,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02mbc:i,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,In Progress
+Configurar parâmetros do controlador para fontes corretoras do PAPU,PENT004032-57,27763,Story,To Do,PENT004032,ENT004.032 - Ondulador PAPU,software,Ruy Farias,6266f26cd364ae006808a2e6,ESCOPO: Projeto e construção de um ondulador para comissionamento das linhas de luz do Sirius utilizando peças do protótipo do ondulador EPU do UVX.,,High,,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,28/Mar/23 11:02 AM,15/May/23 2:38 PM,15/May/23 9:31 AM,,,,,,02/Jun/23 12:00 AM,0,"[~accountid:63d01fd6c565900ff40519b9] 
+
+[~accountid:62bb024e018dea0d4073dbdd] 
+
+Fontes de Corrente para corretoras
+
+DoD:
+
+Bancos de parâmetros das placas UDC necessárias preparados, gravados (UDC e BID) e disponibilizados no Git.",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,PENT004032-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004032-7,Corretoras,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02mbc:,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Prototipar placa preliminar de distribuição AC para validação funcional,PENT004039-41,29029,Story,To Do,PENT004039,ENT004.039 - CONTROLE E SUPERVISÃO DAS FONTES DE RACKS DE BPMS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorar a distribuição de corrente entre os módulos das fontes Acopian, que alimentam os racks de BPMs. A solução pode ser a melhora do sistema atual ou a implementação de um sistema de controle auxiliar.
+
+Também faz parte do escopo implementar um sistema de supervisão que se comunique com o alto nível para aquisição de tensões e correntes dos módulos.",,Low,,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,20/Apr/23 6:01 PM,09/May/23 3:17 PM,18/May/23 10:54 AM,,,Placa AC,,,02/Jun/23 12:00 AM,0,"
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+1 placa de circuito impresso fabricada na LPKF.
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,PENT004039-40,PENT004039-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004039-3,Hardware,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02sqv:,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Prototipagem mecânica da placa de monitoramento para adequação nas gavetas,PENT004039-47,30220,Story,To Do,PENT004039,ENT004.039 - CONTROLE E SUPERVISÃO DAS FONTES DE RACKS DE BPMS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorar a distribuição de corrente entre os módulos das fontes Acopian, que alimentam os racks de BPMs. A solução pode ser a melhora do sistema atual ou a implementação de um sistema de controle auxiliar.
+
+Também faz parte do escopo implementar um sistema de supervisão que se comunique com o alto nível para aquisição de tensões e correntes dos módulos.",,Medium,,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 3:17 PM,15/May/23 4:53 PM,18/May/23 10:54 AM,,,,,,02/Jun/23 12:00 AM,0,"
+
+----
+
+DoD:
+
+Placa apenas com furos e fator de forma fabricada na LPKF.
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004039-3,Hardware,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02sr0:r,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,5.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Revisão do layout do PCB de 4 canais para o sistema de proteção de quench para o criostato vertical,PENT034001-71,25968,Story,IN PROGRESS,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Highest,,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,James Citadini,6250da2ea629c30068aa63af,James Citadini,6250da2ea629c30068aa63af,24/Feb/23 4:45 PM,16/May/23 10:02 AM,18/May/23 10:54 AM,,FDR,Detecção de quench,,,02/Jun/23 12:00 AM,0,"[~accountid:62b0928ba58208122d9fbcb5] 
+
+
+
+Proteção de quench
+
+DoD:
+
+Layout da PCB revisado, issues criadas, alterações e melhorias no layout aplicadas. ",,Gabriel Brunheira,James Citadini,Patricia Henriques Nallin,70121:016a6576-395b-4462-b1e7-fb210bae9d77,6250da2ea629c30068aa63af,62b0acb8f38b4dcf73d839ec,,,,,,,,,PENT034001-154,,,,,PENT034001-520,PENT034001-161,,,PENT034001-558,,,PENT034001-129,PENT034001-130,PENT034001-131,PENT034001-132,PENT034001-133,PENT034001-134,PENT034001-152,PENT034001-153,PENT034001-154,PENT034001-155,PENT034001-156,PENT034001-157,PENT034001-158,PENT034001-159,PENT034001-160,PENT034001-161,PENT034001-162,PENT034001-163,PENT034001-164,PENT034001-165,PENT034001-199,PENT034001-200,PENT034001-201,PENT034001-291,PENT034001-361,PENT034001-466,PENT034001-489,PENT034001-490,PENT034001-491,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02cgl:zh,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,13.0,,,,,9,SEI,,,,,,,,,,,,2023-03-24 11:48:47.902,"24/Mar/23 8:48 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flag) Flag added
+
+Teste de marcação.","24/Mar/23 8:49 AM;70121:016a6576-395b-4462-b1e7-fb210bae9d77;(flagoff) Flag removed
+
+Fim de teste de marcação.","24/Apr/23 11:25 AM;62b0acb8f38b4dcf73d839ec;Issue split into:
+|PENT034001-466|Preparar material e apresentar na reunião com o CERN em 08/maio/2023|
+","24/Apr/23 5:20 PM;62b0acb8f38b4dcf73d839ec;Issue split into:
+|PENT034001-489|Especificação de testes do hardware de 4 canais para o sistema de proteção de quench para o criostato verticalEspecificaçãõ de testes para o hardware de 4 canais |
+|PENT034001-490|Revisão do layout da placa de circuito impresso para o driver do circuito de extração do criostato vertical|
+|PENT034001-491|Revisão do esquemático da fonte de corrente para a caracterização magnética do criostato vertical|
+",In Progress
+Preparar material e apresentar na reunião com o CERN em 22/maio/2023,PENT034001-466,29157,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,24/Apr/23 11:25 AM,15/May/23 3:26 PM,15/May/23 3:30 PM,,FDR,Detecção de quench,Extração,,22/May/23 12:00 AM,0,"[~accountid:62b0928ba58208122d9fbcb5] 
+
+* Proteção de quench
+* Controlador do conversor ressonante
+* Caracterização magnética (alinhar com Vitor IMAS)
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Slides dos subsistemas envolvendo o SEI preparados, reunião realizada.
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,PENT034001-71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02cgt:z,,,,,,,,,,,2023 Sprint 7,22/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Enviar arquivos para fabricação da placa final de detecção de quench para o criostato vertical (QCD-CV),PENT034001-161,26681,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,High,,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,08/Mar/23 9:41 AM,15/May/23 3:42 PM,18/May/23 10:54 AM,,FDR,Detecção de quench,,,02/Jun/23 12:00 AM,0,"[~accountid:62b0928ba58208122d9fbcb5] 
+
+Proteção de quench
+
+DoD:
+
+Gerbers gerados, fechamento do carrinho alinhado com SIN e pedido de compra para JLCPCB enviado. ",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-156,PENT034001-154,PENT034001-71,PENT034001-558,PENT034001-559,PENT034001-162,,,,,,PENT034001-71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02cgl:zi,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,5.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Desenvolver incremento no pyDRS incluindo especificação de variáveis BSMP para o conversor ressonante,PENT034001-472,29203,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Low,,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,24/Apr/23 1:49 PM,15/May/23 3:32 PM,18/May/23 10:54 AM,,FDR,Controlador do conversor,,,02/Jun/23 12:00 AM,0,"[~accountid:62bb024e018dea0d4073dbdd] 
+
+[~accountid:62bf029efbc1f7c647b9f327] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Criar funções/variáveis BSMP no pyDRS, criar pull request, revisar e disponibilizá-lo em uma nova release.
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-135,,,,,PENT034001-139,PENT034001-198,PENT034001-389,,,,PENT034001-35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-5,Fontes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02c0c:x,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,21/Apr/23 12:00 AM,03/Apr/23 12:00 AM,9,SEI,,,,,,,,,,,,,,,,,To Do
+Projetar layout de placa de circuito impresso  para fonte de corrente da caracterização magnética do criostato vertical,PENT034001-454,29071,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,High,,Bruno Gomes de Oliveira,63d01fd6c565900ff40519b9,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,24/Apr/23 9:37 AM,15/May/23 4:00 PM,18/May/23 10:54 AM,,FDR,Medidas Magnéticas,Quench Training,Setup de Caracterização,02/Jun/23 12:00 AM,0,"[~accountid:62bb024e018dea0d4073dbdd] 
+
+DoD:
+
+Layout da PCB projetado, revisado (incluindo criação de issues) e atualizado no repositório Git.",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-491,,,,,PENT034001-455,,,,,,PENT034001-74,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02chq:g,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,13.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Revisão do layout da placa de circuito impresso para o driver do circuito de extração do criostato vertical,PENT034001-490,29426,Story,IN PROGRESS,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,High,,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,24/Apr/23 5:20 PM,17/May/23 4:25 PM,18/May/23 10:54 AM,,FDR,Detecção de quench,Extração,,02/Jun/23 12:00 AM,0,"[~accountid:62bf029efbc1f7c647b9f327] 
+
+DoD:
+
+Layout revisado, issues criadas, mudanças aplicadas e atualizado no repositório Git, modelo 3D enviado para CoP para projeto do painel frontal do bastidor de extração.",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-131,,,,,PENT034001-201,,,,,,PENT034001-71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02by5:y4,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,In Progress
+Teste e validação da eletrônica do driver de acionamento dos contatores do circuito de extração,PENT034001-517,30222,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,High,,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 4:06 PM,15/May/23 4:41 PM,18/May/23 10:54 AM,,FDR,Extração,Hardware,,02/Jun/23 12:00 AM,0,"[~accountid:62bf029efbc1f7c647b9f327] 
+
+DoD:
+
+Placa testada e validada em bancada junto com contatores DC.",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-201,,,,,PENT034001-133,,,,,,PENT034001-201,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02by5:z,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Revisão do esquemático da fonte de corrente para a caracterização magnética do criostato vertical,PENT034001-491,29427,Story,IN PROGRESS,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,High,,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,24/Apr/23 5:20 PM,17/May/23 11:54 AM,18/May/23 10:54 AM,,FDR,Medidas Magnéticas,Setup de Caracterização,,02/Jun/23 12:00 AM,0,"[~accountid:63d01fd6c565900ff40519b9] 
+
+DoD:
+
+Esquemático revisado, issues criadas, alterações e melhorias no esquemático aplicadas. ",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-453,,,,,PENT034001-454,,,,,,PENT034001-71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02chq:fr,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,5.0,,,,,9,SEI,,,,,,,,,,,,,,,,,In Progress
+Crimpar cabos dos sensores de temperatura para o feed-through do CV (interno),PENT034001-572,30634,Story,DONE,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,Done,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Juan Gansauskas Galvez,62b061c7cebad33432f5cbf3,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,15/May/23 2:19 PM,18/May/23 8:35 AM,15/May/23 2:26 PM,18/May/23 8:35 AM,FDR,Sensores,,,02/Jun/23 12:00 AM,0,"[~accountid:70121:016a6576-395b-4462-b1e7-fb210bae9d77] 
+
+DoD: 
+
+Cabos dos sensores crimpados, identificados e testados.",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,PENT034001-441,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02swq:,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,Done
+Fazer layout da PCB de 4 canais para detecção de quench do criostato vertical,PENT034001-154,26674,Story,IN PROGRESS,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Highest,,Samuel Fraga,62b0928ba58208122d9fbcb5,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,08/Mar/23 9:40 AM,15/May/23 3:36 PM,18/May/23 10:54 AM,,FDR,Detecção de quench,,,,0,"[~accountid:70121:016a6576-395b-4462-b1e7-fb210bae9d77] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Layout da PCB finalizado e atualizado no repositório Git para futura revisão.
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-152,PENT034001-158,,,,PENT034001-161,PENT034001-71,PENT034001-558,PENT034001-559,,,PENT034001-71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02cgl:zf,,,,,,,,,,,2023 Sprint 7,,5.0,,,,,9,SEI,,,,,,,,,,,,,,,,,In Progress
+Prototipar e validar layout de circuito de alimentação para integrar ao PCB de 1 canal para o sistema de proteção de quench para o criostato vertical,PENT034001-558,30466,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,High,,Samuel Fraga,62b0928ba58208122d9fbcb5,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,15/May/23 8:54 AM,15/May/23 4:30 PM,18/May/23 10:54 AM,,FDR,Detecção de quench,,,02/Jun/23 12:00 AM,0,"[~accountid:70121:016a6576-395b-4462-b1e7-fb210bae9d77] 
+
+* Criar PCB com cópia do layout do circuito de alimentação da placa QDS-CV
+* Fabricar na LPKF
+* Montar componentes
+
+Definição de pronto:
+
+Placa de teste do circuito de alimentação fabricada e testada.",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-154,,,,,PENT034001-520,PENT034001-161,,,PENT034001-559,PENT034001-71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i032vr:,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,13.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Integrar o protótipo do circuito de alimentação ao PCB de 1 canal para o sistema de proteção de quench para o criostato vertical,PENT034001-559,30469,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,,Samuel Fraga,62b0928ba58208122d9fbcb5,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,15/May/23 9:01 AM,16/May/23 8:02 AM,16/May/23 8:02 AM,,FDR,Detecção de quench,,,02/Jun/23 12:00 AM,0,"[~accountid:70121:016a6576-395b-4462-b1e7-fb210bae9d77] 
+
+DoD:
+
+Placa com circuito de alimentação integrada ao protótipo de 1 canal da placa QDS-CV e testada.",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-154,,,,,PENT034001-520,PENT034001-161,,,,PENT034001-558,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i032wf:,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Confeccionar cabo entre feed-through e instrumento da Lakeshore para sensores de temperatura (externo),PENT034001-571,30633,Story,DONE,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,Done,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Juan Gansauskas Galvez,62b061c7cebad33432f5cbf3,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,15/May/23 2:19 PM,18/May/23 9:07 AM,15/May/23 2:23 PM,18/May/23 9:07 AM,FDR,Sensores,,,02/Jun/23 12:00 AM,0,"DOD:
+
+Cabo montado, identificado e testado em bancada.",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,PENT034001-441,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02swp:,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,5.0,,,,,9,SEI,,,,,,,,,,,,,,,,,Done
+Montagem da placa de circuito impresso  para fonte de corrente da caracterização magnética do criostato vertical,PENT034001-456,29073,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,High,,Bruno Gomes de Oliveira,63d01fd6c565900ff40519b9,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,24/Apr/23 9:37 AM,15/May/23 4:16 PM,18/May/23 10:54 AM,,FDR,Medidas Magnéticas,Setup de Caracterização,,02/Jun/23 12:00 AM,0,"DoD:
+
+Componentes montados na placa fabricada na LPKF.",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-455,,,,,PENT034001-457,,,,,,PENT034001-74,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02chq:hi,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Projetar painéis para projeto de fonte de corrente,PENT034001-522,30251,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,,Bruno Gomes de Oliveira,63d01fd6c565900ff40519b9,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 4:42 PM,16/May/23 8:02 AM,16/May/23 8:02 AM,,FDR,Medidas Magnéticas,Setup de Caracterização,,02/Jun/23 12:00 AM,0,"DoD:
+
+Painéis projetados e arquivos de fabricação gerados e atualizados no repositório Git.",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-455,,,,,PENT034001-523,,,,,,PENT034001-457,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02chq:hv,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Prototipagem e montagem eletrônica do driver de acionamento dos contatores do circuito de extração,PENT034001-201,26740,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,High,,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/Mar/23 7:42 AM,16/May/23 8:03 AM,16/May/23 8:03 AM,,FDR,Extração,Hardware,,02/Jun/23 12:00 AM,0,"DoD:
+
+Placa fabricada na LPKF, componentes montados",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-490,,,,,PENT034001-134,PENT034001-517,,,,,PENT034001-71,PENT034001-517,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02by5:yi,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Prototipar placa de circuito impresso  para fonte de corrente da caracterização magnética do criostato vertical,PENT034001-455,29072,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,High,,Bruno Gomes de Oliveira,63d01fd6c565900ff40519b9,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,24/Apr/23 9:37 AM,15/May/23 4:03 PM,18/May/23 10:54 AM,,FDR,Medidas Magnéticas,Quench Training,Setup de Caracterização,02/Jun/23 12:00 AM,0,"DoD:
+
+Placas da fonte de corrente e dos painéis laterias fabricadas na LPKF.",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT034001-454,,,,,PENT034001-456,PENT034001-522,,,,,PENT034001-74,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02chq:h,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,5.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Adicionar novas funcionalidades da AFE AD5941 na rotina de amperometria no Nina para testes em bancada com Nicoli ,ENT094003-67,30473,Story,IN PROGRESS,ENT094003,ENT094.003 - INTERF. P/ BIOSSENSOR NANOESTRUTURADO P/ MEDIDA NÃO INVAS. GLICEMIA,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+O projeto completo, sob responsabilidade de Dr. Rafael Furlan (LNNano), visa o desenvolvimento de um dispositivo portátil e miniaturizado de iontoforese reversa para a determinação não-invasiva de glicemia (concentração de glicose no sangue). O dispositivo  será composto por três unidades: nanomembrana interfacial, sistema eletródico e transdutor.
+A colaboração com o LNNano se dará pela continuação e aperfeiçoamento do desenvolvimento do transdutor: um sistema eletrônico com comunicação sem fio, responsável pela aplicação de uma corrente de iontoforese reversa e leitura, condicionamento e transmissão dos dados de um biossensor eletroquímico.",,Medium,,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,15/May/23 9:04 AM,16/May/23 4:37 PM,15/May/23 9:05 AM,,,,,,02/Jun/23 12:00 AM,0,"[~accountid:63d01fd6c565900ff40519b9] 
+
+Implementar as seguintes funcionalidades:
+
+* Ajuste de offset do A/D
+* Funcionalidade de média de amostras (no AD5941 ou no Nina)
+* -Modo low-power do AD5941-
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Funcionalidades definidas acima implementadas e testadas.
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,ENT094003-54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT094003-2,FDR - Desenvolvimento Experimental /Projeto Executivo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02fmj:,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,21.0,,,,,9,SEI,,,,,,,,,,,,,,,,,In Progress
+Acompanhar a contratação de montagem realizada pelo LNNano para a placa de circuito impresso do Glucow,ENT094003-66,30472,Story,To Do,ENT094003,ENT094.003 - INTERF. P/ BIOSSENSOR NANOESTRUTURADO P/ MEDIDA NÃO INVAS. GLICEMIA,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+O projeto completo, sob responsabilidade de Dr. Rafael Furlan (LNNano), visa o desenvolvimento de um dispositivo portátil e miniaturizado de iontoforese reversa para a determinação não-invasiva de glicemia (concentração de glicose no sangue). O dispositivo  será composto por três unidades: nanomembrana interfacial, sistema eletródico e transdutor.
+A colaboração com o LNNano se dará pela continuação e aperfeiçoamento do desenvolvimento do transdutor: um sistema eletrônico com comunicação sem fio, responsável pela aplicação de uma corrente de iontoforese reversa e leitura, condicionamento e transmissão dos dados de um biossensor eletroquímico.",,Medium,,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,15/May/23 9:04 AM,15/May/23 2:43 PM,15/May/23 9:04 AM,,,,,,02/Jun/23 12:00 AM,0,"Acompanhar SC realizada pela Nicoli (LNNano) de contratação da montagem da PCB.
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Acompanhamento, cobrança e envio de informações necessárias para Nicoli realizar a SC neste sprint.
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,ENT094003-54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT094003-2,FDR - Desenvolvimento Experimental /Projeto Executivo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02fmi:,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,5.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Levantar e comparar a vazão das bombas para fins de procedimento de experimentos,PENT104002-37,29971,Story,To Do,PENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,Highest,,Eduarda Nicoletto Ayres de Oliveira,62bb04adde439ce00ee39aa9,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 10:19 AM,15/May/23 2:13 PM,18/May/23 10:54 AM,,,Controle de operações,Sensores e atuadores,Smart Sleeve,02/Jun/23 12:00 AM,0,"* Definir e disponibilizar método para medida do volume dos líquidos (becker, pipeta, balança, etc)
+* Realizar medidas de volume por tempo de acionamento
+
+----
+
+DoD:
+
+Medidas da vazão média de cada bomba realizadas e documentadas para futura calibração.
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,PENT104002-33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT104002-3,Eletrônica,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02to6:xp,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Testar sensores OD com amostras no LNBR para confirmar seu funcionamento,PENT104002-38,29972,Story,To Do,PENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,Highest,,Eduarda Nicoletto Ayres de Oliveira,62bb04adde439ce00ee39aa9,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 10:19 AM,17/May/23 9:47 AM,15/May/23 1:43 PM,,,Sensores e atuadores,Software-firmware,,02/Jun/23 12:00 AM,0,"* Solicitar amostras de referência de OD para LNBR
+* Medir resposta dos sensores para as referências de OD
+
+----
+
+DoD:
+
+Curvas com resposta dos sensores para as referência de OD levantadas para todas smart sleeves.
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,PENT104002-35,,,,,PENT104002-33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT104002-3,Eletrônica,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02to6:r,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,13.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Validar proposta de conexão termomecânica para aquecimento das smart sleeves,PENT104002-30,29964,Story,IN PROGRESS,PENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,Medium,,Eduarda Nicoletto Ayres de Oliveira,62bb04adde439ce00ee39aa9,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 10:18 AM,17/May/23 3:02 PM,15/May/23 1:27 PM,,,Integração e montagem,,,02/Jun/23 12:00 AM,0,"
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+   Nova conexão termomecânica feita, curvas de aquecimento geradas, e solução validada.
+
+----",,Eduarda Nicoletto Ayres de Oliveira,Patricia Henriques Nallin,,62bb04adde439ce00ee39aa9,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16/May/23 10:51 AM;ug:5b402529-23a2-4594-92ec-2412951ddc9b;log_temp (6f59c5eb-10b3-4de7-bfb1-c26b04da5e2c).png;https://cnpem.atlassian.net/secure/attachment/17786/log_temp+%286f59c5eb-10b3-4de7-bfb1-c26b04da5e2c%29.png,16/May/23 10:51 AM;ug:5b402529-23a2-4594-92ec-2412951ddc9b;log_temp.png;https://cnpem.atlassian.net/secure/attachment/17785/log_temp.png,,,,,,,,,,,,,,,,,,,,,,,,,,PENT104002-1,Mecânica,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02tli:y,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,5.0,,,,,9,SEI,,,,,,,,,,,,2023-05-16 13:51:24.438,"16/May/23 10:51 AM;62bb04adde439ce00ee39aa9;eVOLVER 1:
+
+!log_temp.png|width=1080,height=720!
+
+eVOLVER 2:
+
+!log_temp (6f59c5eb-10b3-4de7-bfb1-c26b04da5e2c).png|width=1080,height=720!
+
+Podemos observar um problema na smart sleeve 5 do eVOLVER 1. Além disso é possível visualizar como a conexão com pasta térmica otimizou o funcionamento da segunda unidade.",17/May/23 3:02 PM;62bb04adde439ce00ee39aa9;[https://cnpemcamp.sharepoint.com/:o:/s/sei/ElggP_tFIZZJuaI2WfooC0oB0tVn4kioq0m3pHR4G-2YoQ?e=mJa3Ic|https://cnpemcamp.sharepoint.com/:o:/s/sei/ElggP_tFIZZJuaI2WfooC0oB0tVn4kioq0m3pHR4G-2YoQ?e=mJa3Ic|smart-link] ,,,In Progress
+Verificar e otimizar operação do sensor de densidade óptica,PENT104002-35,29969,Story,To Do,PENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,High,,Eduarda Nicoletto Ayres de Oliveira,62bb04adde439ce00ee39aa9,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 10:19 AM,15/May/23 2:05 PM,15/May/23 1:28 PM,,,Sensores e atuadores,Software-firmware,,02/Jun/23 12:00 AM,0,"
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+   Solução de isolação das smart sleeves provida pela ACA testada e validada ou adaptadas.
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,PENT104002-33,PENT104002-38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT104002-3,Eletrônica,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02to6:d,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Validar conversão de temperatura para garantir o correto funcionamento do parâmetro,PENT104002-36,29970,Story,IN PROGRESS,PENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,Medium,,Eduarda Nicoletto Ayres de Oliveira,62bb04adde439ce00ee39aa9,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 10:19 AM,18/May/23 8:20 AM,18/May/23 10:54 AM,,,Sensores e atuadores,,,02/Jun/23 12:00 AM,0,"
+
+----
+
+DoD:
+
+Testes de validação da conversão de temperatura implementada realizados.
+
+----",,Eduarda Nicoletto Ayres de Oliveira,Patricia Henriques Nallin,,62bb04adde439ce00ee39aa9,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,PENT104002-33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT104002-3,Eletrônica,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02to6:xv,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,5.0,,,,,9,SEI,,,,,,,,,,,,2023-05-17 18:02:54.28,17/May/23 3:02 PM;62bb04adde439ce00ee39aa9;[https://cnpemcamp.sharepoint.com/:o:/s/sei/ElggP_tFIZZJuaI2WfooC0oB0tVn4kioq0m3pHR4G-2YoQ?e=mJa3Ic|https://cnpemcamp.sharepoint.com/:o:/s/sei/ElggP_tFIZZJuaI2WfooC0oB0tVn4kioq0m3pHR4G-2YoQ?e=mJa3Ic|smart-link] ,,,,In Progress
+Adaptar DPU e server para comunicação bidirecional para todos os comandos,PENT104002-23,29957,Story,IN PROGRESS,PENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,Medium,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 10:18 AM,16/May/23 4:05 PM,16/May/23 4:05 PM,,,Controle de operações,,,02/Jun/23 12:00 AM,0,"[~accountid:62bb04adde439ce00ee39aa9] 
+
+----
+
+*Definition of Done:*
+
+Adaptações na DPU e server realizadas e testadas conforme especificação levantada em outra atividade. 
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT104002-4,Interfaces,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02tkk:,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,8.0,,,,,9,SEI,,,,,,,,,,,,,,,,,In Progress
+Verificar valores de inicialização e regime estático (sem uso) dos atuadores para otimizar consumo energético,PENT104002-34,29968,Story,To Do,PENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,Medium,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 10:19 AM,15/May/23 2:02 PM,15/May/23 1:28 PM,,,Otimizações,Sensores e atuadores,Software-firmware,02/Jun/23 12:00 AM,0,"[~accountid:62bb04adde439ce00ee39aa9] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Valores de inicialização definidos e inseridos no software.
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,PENT104002-33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT104002-3,Eletrônica,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02to5:v,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,5.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Realizar testes de integração entre GUI + DPU + servidor,PENT104002-22,29956,Story,To Do,PENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,Medium,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 10:17 AM,15/May/23 1:31 PM,15/May/23 1:25 PM,,,Controle de operações,,,02/Jun/23 12:00 AM,0,"[~accountid:62bc37dbec4c0d377f9fed4c] 
+
+[~accountid:62bb04adde439ce00ee39aa9] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+   Testes do comando das funções das smart sleeves pela interface gráfica.
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT104002-4,Interfaces,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02tkl:,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,13.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Verificar funcionamento de camada de comunicação entre GUI e DPU para o eVolver,PENT104002-24,29958,Story,To Do,PENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,Medium,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 10:18 AM,15/May/23 1:28 PM,15/May/23 1:25 PM,,,Controle de operações,,,02/Jun/23 12:00 AM,0,"[~accountid:62bc37dbec4c0d377f9fed4c] 
+
+[~accountid:62bb04adde439ce00ee39aa9] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+   Testes de comunicação entre GUI e DPU realizados.
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT104002-4,Interfaces,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02tkj:,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,13.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do
+Alinhar com GAS sobre interface gráfica para primeira integração com o hardware do eVolver,PENT104002-19,29927,Story,To Do,PENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,High,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,08/May/23 10:19 AM,15/May/23 2:18 PM,18/May/23 10:54 AM,,FDR,Integração e montagem,Software e interface gráfica,,02/Jun/23 12:00 AM,0,"Alinhamento sobre status atual e definições sobre implementação final (operações, tipo da interface, logs, etc). A definição de pronto desta atividade será revisada ao longo da execução, junto com o pessoal do GAS.
+
+[~accountid:62bb04adde439ce00ee39aa9] 
+
+[~accountid:62bc37dbec4c0d377f9fed4c] 
+
+
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Compatibilidade do padrão de comunicação usado pelo software de alto-nível (junto com o Caio) com o implementado no hardware (BeagleBone) verificada. Especificação de requisitos para ter a primeira operação com a interface de alto nível levantada.
+
+----",,Patricia Henriques Nallin,,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT104002-4,Interfaces,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02tkf:,,,,,,,,,,,2023 Sprint 7,15/May/23 12:00 AM,5.0,,,,,9,SEI,,,,,,,,,,,,,,,,,To Do

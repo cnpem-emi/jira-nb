@@ -1,0 +1,34 @@
+------------------------------------------------------------
+*****  SPRINT 07/2023         (23-05-2023)  *****
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+TOTAL DE PROJETOS ENT: 7
+
+ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS
+ENT004.031 - PROTÓTIPO DO ONDULADOR DU525 DA LINHA SABIÁ
+ENT004.032 - Ondulador PAPU
+ENT004.039 - CONTROLE E SUPERVISÃO DAS FONTES DE RACKS DE BPMS
+ENT034.001 - Projeto de um Wavelengthshifter - WLS
+ENT094.003 - INTERF. P/ BIOSSENSOR NANOESTRUTURADO P/ MEDIDA NÃO INVAS GLICEMIA.
+ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+TOTAL
+# ATIVIDADES: 35
+PONTOS PLANEJADOS: 287
+22.08 pontos/dia útil
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+STATUS		#PONTOS		% PONTOS	#ATIVIDADES	% ATIVIDADES
+Done    	75		26.1		10		28.6
+In Progress	81		28.2		9		25.7
+To Do   	131		45.6		16		45.7
+Total		287				35
+------------------------------------------------------------
