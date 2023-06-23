@@ -1,17 +1,19 @@
 ------------------------------------------------------------
-*****  SPRINT 08/2023         (05-06-2023)  *****
+*****  SPRINT 08/2023         (22-06-2023)  *****
 ------------------------------------------------------------
 
 
 
 ------------------------------------------------------------
-TOTAL DE PROJETOS ENT: 9
+TOTAL DE PROJETOS ENT: 11
 
 ENT002.001 - MANUTENÇÃO E OPERAÇÃO DE SUBSISTEMAS DOS ACELERADORES DO SIRIUS
 ENT004.003 - SIMAR – SISTEMA DE MONITORAÇÃO E ATUAÇÃO EM RACKS
 ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS
 ENT004.022 - PROJETO DE NOVO NLK PARA TOP-UP
+ENT004.031 - PROTÓTIPO DO ONDULADOR DU525 DA LINHA SABIÁ
 ENT004.032 - Ondulador PAPU
+ENT005.001 - DESENVOLVIMENTO E CAPACITAÇÃO PARA O SIRIUS
 ENT034.001 - Projeto de um Wavelengthshifter - WLS
 ENT074.002 - ESTUDOS DE UMA INSTALAÇÃO DE RADIOISÓTOPOS BASEADA EM ACELERADORES
 ENT094.003 - INTERF. P/ BIOSSENSOR NANOESTRUTURADO P/ MEDIDA NÃO INVAS GLICEMIA.
@@ -20,16 +22,16 @@ ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS
 
 ------------------------------------------------------------
 TOTAL
-# ATIVIDADES: 35
-PONTOS PLANEJADOS: 288
-26.18 pontos/dia útil
+# ATIVIDADES: 39
+PONTOS PLANEJADOS: 351
+31.91 pontos/dia útil
 ------------------------------------------------------------
 
 
 ------------------------------------------------------------
 STATUS		#PONTOS		% PONTOS	#ATIVIDADES	% ATIVIDADES
-Done    	5		1.7		1		2.9
-In Progress	37		12.8		4		11.4
-To Do   	246		85.4		30		85.7
-Total		288				35
+Done    	251		71.5		29		74.4
+In Progress	45		12.8		5		12.8
+To Do   	55		15.7		5		12.8
+Total		351				39
 ------------------------------------------------------------

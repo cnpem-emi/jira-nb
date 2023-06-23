@@ -1,0 +1,486 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Project url,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Fix versions,Components,Components,Components,Components,Due date,Votes,Description,Environment,Watchers,Watchers,Watchers Id,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Inward issue link (Cloners),Outward issue link (Cloners),Inward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Attachment,Attachment,Custom field (Activity Code),Custom field (Actual end),Custom field (Actual start),Custom field (Affected hardware),Custom field (Affected services),Custom field (Atlas project key),Custom field (Atlas project status),Custom field (Backout plan),Custom field (Balance (R$)),Custom field (Budget (R$)),Custom field (Category),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Client),Custom field (Compass),Custom field (Criteria - Consequence),Custom field (Criteria - HR),Custom field (Criteria - Indicators),Custom field (Criteria - Reputation),Custom field (Criteria - Time Window),Custom field (Department),Custom field (Designer),Custom field (Development),Custom field (E-mail),Custom field (Employee location),Custom field (Employment type),Custom field (Epic Link),Epic Link Summary,Custom field (Event count),Custom field (Event date),Custom field (Event location),Custom field (Expense (R$)),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (External issue ID),Custom field (Flagged),Custom field (Group),Custom field (Impact),Custom field (Implementation plan),Custom field (Investigation reason),Custom field (Issue color),Custom field (Job title),Custom field (Last working day),Custom field (Locked forms),Custom field (Maintenance location),Custom field (Maintenance type),Custom field (Major incident),Custom field (Manufacturing Options),Custom field (Move count),Custom field (Move date),Custom field (Move from),Custom field (Move to),Custom field (Number of Parts),Custom field (Open forms),Custom field (Operational categorization),Custom field (Origem),Custom field (Party Name),Custom field (Pending reason),Custom field (Planned end),Custom field (Planned start),Custom field (Priority Grade),Custom field (Priority Index),Custom field (Priority Score for Advanced Roadmaps),Custom field (Product categorization),Custom field (Rank),Custom field (Reference),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Resignation date),Custom field (Responders),Custom field (Root cause),Satisfaction rating,Custom field (Severity),Custom field (Source),Sprint,Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Team Id,Team Name,Custom field (Tempo de primeiro atendimento),Custom field (Test plan),Custom field (Time to close after resolution),Custom field (Time to first response),Custom field (Time to resolution),Custom field (Time to review normal change),Custom field (Total forms),Custom field (Unit),Custom field (Urgency),Custom field (Work category),Custom field (Workaround),Custom field ([CHART] Date of First Response),Comment,Status Category
+[SERIALxxCON] Verificar e corrigir a não-execução da autoconfiguração em caso de falta de energia,ENT002001-684,30890,Story,DONE,ENT002001,ENT002.001 - MANUTENÇÃO E OPERAÇÃO DE SUBSISTEMAS DOS ACELERADORES DO SIRIUS,software,James Citadini,6250da2ea629c30068aa63af,"ESCOPO:
+Manutenções e Operação dos subsistemas  do Sirius",,Medium,Done,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,16/May/23 9:31 AM,16/Jun/23 1:31 PM,19/Jun/23 8:33 AM,16/Jun/23 1:31 PM,,Parada de Junho 2023,,,,16/Jun/23 12:00 AM,0,"Após quedas de energia, nota-se que algumas poucas unidades de SERIALxxCON não aplicam a auto-configuração, provavelmente pelo fato do switch finalizar sua inicialização depois da BeagleBone. Verificar o ocorrido com mais propriedade e propor solução.
+
+
+
+Necessidade: POSSIBILIDADE DE BOOTS FRIO EM APENAS UM SWITCH DE CONTROLE (ARUBA), QUALQUER SALA DE RACK (a critério do SWC)
+
+DoD:
+
+Falha de auto-configuração entendida, mitigada e solução testada e atualizada em todas as SERIALxxCON.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT002001-5,Grupo SEI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i034kn:,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,13.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+[MBTemp] Arquivar valores dos coeficientes de calibração das eletrônicas (ganho/effset) no Archiver,ENT002001-718,31533,Story,DONE,ENT002001,ENT002.001 - MANUTENÇÃO E OPERAÇÃO DE SUBSISTEMAS DOS ACELERADORES DO SIRIUS,software,James Citadini,6250da2ea629c30068aa63af,"ESCOPO:
+Manutenções e Operação dos subsistemas  do Sirius",,Medium,Done,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,29/May/23 11:08 AM,06/Jun/23 12:06 PM,22/Jun/23 8:37 AM,06/Jun/23 12:06 PM,,Parada de Junho 2023,,,,16/Jun/23 12:00 AM,0,"Checar leituras pelo IOC e configurar arquivamentos no Archiver-Sirius.
+
+Checar se MBTemp da Sabiá está no Archiver das linhas.
+
+Necessidade: ELETRÔNICAS TODAS OPERACIONAIS
+
+DoD:
+
+PV’s arquivadas no Archiver.",,Patricia Henriques Nallin,Robert Willian Polli,62b0acb8f38b4dcf73d839ec,62bf029efbc1f7c647b9f327,,,,,,,,,ENT002001-683,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT002001-5,Grupo SEI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i039jb:,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,8.0,,,,,9,EMI,,,,,,,,,,,,2023-06-05 12:31:17.07,"05/Jun/23 9:31 AM;62bf029efbc1f7c647b9f327;MBTemps que necessitam calibração:
+
+
+BO-MBTemp-10
+BO-MBTemp-15
+
+BO-MBTemp-41
+
+SI-02-MBTemp-13
+SI-02-MBTemp-23
+
+SI-08-MBTemp-08
+SI-08-MBTemp-23
+
+SI-09-MBTemp-13
+SI-10-MBTemp-23
+SI-14-MBTemp-23
+
+SI-15-MBTemp-22
+SI-17-MBTemp-21
+
+LA-MBTemp-01
+LA-MBTemp-02
+LA-MBTemp-03
+RF-MBTemp-01
+PA-MBTemp-02
+SAB-MBTemp-01",Done
+"[Contadora] Verificar contadoras com leituras congeladas, junto com Carlos Scorzato",ENT002001-677,30395,Story,DONE,ENT002001,ENT002.001 - MANUTENÇÃO E OPERAÇÃO DE SUBSISTEMAS DOS ACELERADORES DO SIRIUS,software,James Citadini,6250da2ea629c30068aa63af,"ESCOPO:
+Manutenções e Operação dos subsistemas  do Sirius",,Medium,Done,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,12/May/23 11:25 AM,07/Jun/23 4:22 PM,22/Jun/23 8:37 AM,07/Jun/23 4:22 PM,,Parada de Junho 2023,,,,16/Jun/23 12:00 AM,0,"Verificar contadoras com leituras congeladas, junto com Carlos Scorzato. O problema, já conhecido, pode ser tanto na contadora quanto no sensor. 
+
+Aplicar solução corretiva, já conhecida pelos envolvidos.
+
+Necessidade: TUNEL ABERTO
+
+[~accountid:62bb024e018dea0d4073dbdd] 
+
+DoD:
+
+Todas as contadoras operacionais.",,Patricia Henriques Nallin,Robert Willian Polli,62b0acb8f38b4dcf73d839ec,62bf029efbc1f7c647b9f327,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT002001-5,Grupo SEI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i032rj:,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,8.0,,,,,9,EMI,,,,,,,,,,,,2023-06-05 12:49:34.189,"05/Jun/23 9:49 AM;62bf029efbc1f7c647b9f327;10.128.101.152 - (CH1) SI-01M2:CO-Gamma ; (CH2) SI-01C1:CO-Gamma  *- Precisa arrumar os 24V*
+
+10.128.102.153 - (CH1) SI-02C2:CO-Gamma  *- Problema no Sensor*
+
+-10.128.112.154 - (CH1) SI-12C4:CO-Gamma-
+
+10.128.113.153 - (CH1) SI-13C2:CO-Gamma ; (CH2) SI-13C3:CO-Gamma
+
+SI-07C2:CO-Gamma:Count-Mon - Talvez com uma tensão de bias pequena",Done
+[MBTemp] Verificar eletrônicas com leituras congeladas,ENT002001-683,30888,Story,IN PROGRESS,ENT002001,ENT002.001 - MANUTENÇÃO E OPERAÇÃO DE SUBSISTEMAS DOS ACELERADORES DO SIRIUS,software,James Citadini,6250da2ea629c30068aa63af,"ESCOPO:
+Manutenções e Operação dos subsistemas  do Sirius",,Medium,,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,16/May/23 7:52 AM,15/Jun/23 5:20 PM,22/Jun/23 8:37 AM,,,Parada de Junho 2023,,,,16/Jun/23 12:00 AM,0,"Verificar eletrônicas e sensores, checar versão de firmware (deve ser a mais recente) e identificar a causa do travamento
+
+
+
+Necessidade: TUNEL ABERTO
+
+DoD:
+
+Todas as MBTemp operacionais.",,Patricia Henriques Nallin,Robert Willian Polli,62b0acb8f38b4dcf73d839ec,62bf029efbc1f7c647b9f327,,,,,,,,,,,,,,ENT002001-718,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT002001-5,Grupo SEI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i034k7:,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,8.0,,,,,9,EMI,,,,,,,,,,,,2023-06-05 12:07:16.38,"05/Jun/23 9:07 AM;62bf029efbc1f7c647b9f327;Sensores travados (05/06/23):
+
+SI-02M2:VA-PT100-BG:Temp-Mon
+SI-02M2:VA-PT100-MD:Temp-Mon
+SI-02M2:CO-PT100-Ambient:Temp-Mon
+RF-P7Cav-01-CH8
+SI-09M2:VA-PT100-BG:Temp-Mon
+SI-09M2:VA-PT100-MD:Temp-Mon
+SI-09VA:Ondulador01:Temp-Mon
+SI-09VA:Ondulador02:Temp-Mon
+SI-09M2:CO-PT100-Ambient:Temp-Mon
+SI-20C3:VA-PT100-MD2:Temp-Mon
+LTB-CH1
+LTB-CH2
+LTB-CH3
+LTB-CH4
+LTB-CH5
+LTB-CH6
+LTB-CH7
+LTB-CH8
+LA-01PT100-Top:Temp-Mon
+LA-01PT100-Down:Temp-Mon
+LA-03PT100-Top:Temp-Mon
+LA-03PT100-Down:Temp-Mon
+LA-02PT100-Top:Temp-Mon
+LA-02PT100-Down:Temp-Mon
+LA-04PT100-Top:Temp-Mon
+LA-04PT100-Down:Temp-Mon
+RFQ-PT100:Temp-Mon
+PA-MBTemp-02:CO-PT100-Ch1:Temp-Mon
+PA-MBTemp-02:CO-PT100-Ch2:Temp-Mon
+PA-MBTemp-02:CO-PT100-Ch3:Temp-Mon
+PA-MBTemp-02:CO-PT100-Ch1:Temp-Mon
+PA-MBTemp-02:CO-PT100-Ch2:Temp-Mon
+PA-MBTemp-02:CO-PT100-Ch3:Temp-Mon
+
+
+
+MBTemps que necessitam calibração:
+
+
+
+BO-MBTemp-10
+BO-MBTemp-15
+
+BO-MBTemp-41
+
+SI-02-MBTemp-13
+SI-02-MBTemp-23
+
+SI-08-MBTemp-08
+SI-08-MBTemp-23
+
+SI-09-MBTemp-13
+SI-10-MBTemp-23
+SI-14-MBTemp-23
+
+SI-15-MBTemp-22
+SI-17-MBTemp-21
+
+LA-MBTemp-01
+LA-MBTemp-02
+LA-MBTemp-03
+RF-MBTemp-01
+PA-MBTemp-02
+SAB-MBTemp-01",In Progress
+Montar 2 unidades do uSIMAR,PENT004003-30,30137,Story,IN PROGRESS,PENT004003,ENT004.003 - SIMAR – SISTEMA DE MONITORAÇÃO E ATUAÇÃO EM RACKS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Atualização status e calendário de instalação, uma vez que as salas de rack 13 a 20, sala de Fontes e Conectividade já contam com o sistema de monitoramento em funcionamento e integrado à Rede de Controle da máquina. Com essa primeira fase de instalação concluída e pela estabilidade do sistema, planeja-se ampliar a infraestrutura às demais Salas de Rack do Sirius, Sala de RF e LINAC, bem como finalizar testes e análises em campo do monitor e atuador em tomadas. Ainda, devido à praticidade e facilidade das unidades wireless, uma alternativa enxuta e mais barata será estudada e pretende-se incluir o sistema WiFi para monitoração ambiente de outros pontos do prédio do Sirius a fim de contribuir com estudos de estabilidade do Sirius. 
+Obs: Desenvolvimento de atuadores sobre as réguas de tomadas continuam em teste.",,Medium,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 12:10 PM,20/Jun/23 3:44 PM,05/Jun/23 8:58 AM,,,,,,,,0,"* 1 com módulo
+* 1 com o kit de desenvolvimento
+
+----
+
+DoD:
+
+Duas unidades do uSIMAR conforme especificado montadas.
+
+----",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,PENT004003-25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004003-3,uSIMAR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02unv:,,,,,,,,,,,2023 Sprint 8,,,8.0,,,,,9,EMI,,,,,,,,,,,,,,In Progress
+Adicionar unidades SIMAR instaladas no Sirius no serviço de Autoconfiguração das BeagleBones para otimizar processos de inicialização,PENT004003-36,30143,Story,DONE,PENT004003,ENT004.003 - SIMAR – SISTEMA DE MONITORAÇÃO E ATUAÇÃO EM RACKS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Atualização status e calendário de instalação, uma vez que as salas de rack 13 a 20, sala de Fontes e Conectividade já contam com o sistema de monitoramento em funcionamento e integrado à Rede de Controle da máquina. Com essa primeira fase de instalação concluída e pela estabilidade do sistema, planeja-se ampliar a infraestrutura às demais Salas de Rack do Sirius, Sala de RF e LINAC, bem como finalizar testes e análises em campo do monitor e atuador em tomadas. Ainda, devido à praticidade e facilidade das unidades wireless, uma alternativa enxuta e mais barata será estudada e pretende-se incluir o sistema WiFi para monitoração ambiente de outros pontos do prédio do Sirius a fim de contribuir com estudos de estabilidade do Sirius. 
+Obs: Desenvolvimento de atuadores sobre as réguas de tomadas continuam em teste.",,Medium,Done,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 12:11 PM,20/Jun/23 4:21 PM,20/Jun/23 4:21 PM,20/Jun/23 4:21 PM,,Parada de Junho 2023,,,,16/Jun/23 12:00 AM,0,"
+
+----
+
+DoD:
+
+Todas as unidades do SIMAR do Sirius mapeadas no serviço de autoconfiguração das BBB’s.
+
+----",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,PENT004003-35,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004003-1,Software-Firmware,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02xiy:i,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,8.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+[SIMAR] Verificar e listar unidades instaladas no Sirius,PENT004003-21,29634,Story,DONE,PENT004003,ENT004.003 - SIMAR – SISTEMA DE MONITORAÇÃO E ATUAÇÃO EM RACKS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Atualização status e calendário de instalação, uma vez que as salas de rack 13 a 20, sala de Fontes e Conectividade já contam com o sistema de monitoramento em funcionamento e integrado à Rede de Controle da máquina. Com essa primeira fase de instalação concluída e pela estabilidade do sistema, planeja-se ampliar a infraestrutura às demais Salas de Rack do Sirius, Sala de RF e LINAC, bem como finalizar testes e análises em campo do monitor e atuador em tomadas. Ainda, devido à praticidade e facilidade das unidades wireless, uma alternativa enxuta e mais barata será estudada e pretende-se incluir o sistema WiFi para monitoração ambiente de outros pontos do prédio do Sirius a fim de contribuir com estudos de estabilidade do Sirius. 
+Obs: Desenvolvimento de atuadores sobre as réguas de tomadas continuam em teste.",,Medium,Done,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,27/Apr/23 10:31 AM,21/Jun/23 3:46 PM,21/Jun/23 10:44 AM,21/Jun/23 3:46 PM,TIP,Integração,,,,,0,"[SIMAR] Verificar e listar unidades instaladas no Sirius
+
+DoD:
+
+Unidades instaladas mapeadas e documentadas. ",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,PENT004003-44,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,PENT004003-2,Hardware,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02xhr:,,,,,,,,,,,2023 Sprint 8,,,5.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Verificar nível lógico de redes I2C travadas dos sensores de temperatura para mitigação de problemas,PENT004003-43,30150,Story,IN PROGRESS,PENT004003,ENT004.003 - SIMAR – SISTEMA DE MONITORAÇÃO E ATUAÇÃO EM RACKS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Atualização status e calendário de instalação, uma vez que as salas de rack 13 a 20, sala de Fontes e Conectividade já contam com o sistema de monitoramento em funcionamento e integrado à Rede de Controle da máquina. Com essa primeira fase de instalação concluída e pela estabilidade do sistema, planeja-se ampliar a infraestrutura às demais Salas de Rack do Sirius, Sala de RF e LINAC, bem como finalizar testes e análises em campo do monitor e atuador em tomadas. Ainda, devido à praticidade e facilidade das unidades wireless, uma alternativa enxuta e mais barata será estudada e pretende-se incluir o sistema WiFi para monitoração ambiente de outros pontos do prédio do Sirius a fim de contribuir com estudos de estabilidade do Sirius. 
+Obs: Desenvolvimento de atuadores sobre as réguas de tomadas continuam em teste.",,Low,,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 12:11 PM,22/Jun/23 8:27 AM,22/Jun/23 8:25 AM,,,Parada de Junho 2023,,,,16/Jun/23 12:00 AM,0,"[~accountid:62bb024e018dea0d4073dbdd] 
+
+[~accountid:63d01fd6c565900ff40519b9] 
+
+----
+
+DoD:
+
+Integridade da interface I2C medida e analisada.
+
+----",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,PENT004003-40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004003-2,Hardware,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Impediment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02xhu:,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,8.0,,,,,9,EMI,,,,,,,,,,,,,"22/Jun/23 8:27 AM;62b0acb8f38b4dcf73d839ec;*IMPEDIMENTO*
+
+Impedimento: atividade em andamento
+
+Problema: atividade não será finalizada até o fim da sprint, por conta de tempo
+
+Impacto:  atividade não será finalizada até o fim da sprint, consequentemente a [https://cnpem.atlassian.net/browse/PENT004003-42|https://cnpem.atlassian.net/browse/PENT004003-42] também não.
+
+Quem: [~accountid:62bf029efbc1f7c647b9f327] [~accountid:62bb024e018dea0d4073dbdd] ",In Progress
+Verificar condições de hardware do sensor BME/BMP para mitigação de problemas,PENT004003-42,30149,Story,To Do,PENT004003,ENT004.003 - SIMAR – SISTEMA DE MONITORAÇÃO E ATUAÇÃO EM RACKS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Atualização status e calendário de instalação, uma vez que as salas de rack 13 a 20, sala de Fontes e Conectividade já contam com o sistema de monitoramento em funcionamento e integrado à Rede de Controle da máquina. Com essa primeira fase de instalação concluída e pela estabilidade do sistema, planeja-se ampliar a infraestrutura às demais Salas de Rack do Sirius, Sala de RF e LINAC, bem como finalizar testes e análises em campo do monitor e atuador em tomadas. Ainda, devido à praticidade e facilidade das unidades wireless, uma alternativa enxuta e mais barata será estudada e pretende-se incluir o sistema WiFi para monitoração ambiente de outros pontos do prédio do Sirius a fim de contribuir com estudos de estabilidade do Sirius. 
+Obs: Desenvolvimento de atuadores sobre as réguas de tomadas continuam em teste.",,Low,,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 12:11 PM,22/Jun/23 8:27 AM,22/Jun/23 8:26 AM,,,Parada de Junho 2023,,,,16/Jun/23 12:00 AM,0,"[~accountid:62bb024e018dea0d4073dbdd] 
+
+[~accountid:63d01fd6c565900ff40519b9] 
+
+----
+
+DoD:
+
+Alimentações e integridade da interface I2C medidas e analisadas.
+
+----",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,PENT004003-40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004003-2,Hardware,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Impediment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02xi2:,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,8.0,,,,,9,EMI,,,,,,,,,,,,,"22/Jun/23 8:27 AM;62b0acb8f38b4dcf73d839ec;*IMPEDIMENTO*
+
+Impedimento: atividade em andamento
+
+Problema: atividade não será finalizada até o fim da sprint, por conta de tempo
+
+Impacto:  atividade não será finalizada até o fim da sprint.
+
+Quem: [~accountid:62bf029efbc1f7c647b9f327] [~accountid:62bb024e018dea0d4073dbdd] ",To Do
+Atualizar unidades SIMAR do Sirius para versão mais recente de software/firmware/bibliotecas,PENT004003-35,30142,Story,DONE,PENT004003,ENT004.003 - SIMAR – SISTEMA DE MONITORAÇÃO E ATUAÇÃO EM RACKS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Atualização status e calendário de instalação, uma vez que as salas de rack 13 a 20, sala de Fontes e Conectividade já contam com o sistema de monitoramento em funcionamento e integrado à Rede de Controle da máquina. Com essa primeira fase de instalação concluída e pela estabilidade do sistema, planeja-se ampliar a infraestrutura às demais Salas de Rack do Sirius, Sala de RF e LINAC, bem como finalizar testes e análises em campo do monitor e atuador em tomadas. Ainda, devido à praticidade e facilidade das unidades wireless, uma alternativa enxuta e mais barata será estudada e pretende-se incluir o sistema WiFi para monitoração ambiente de outros pontos do prédio do Sirius a fim de contribuir com estudos de estabilidade do Sirius. 
+Obs: Desenvolvimento de atuadores sobre as réguas de tomadas continuam em teste.",,Medium,Done,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 12:10 PM,21/Jun/23 8:23 AM,05/Jun/23 8:58 AM,21/Jun/23 8:23 AM,,Parada de Junho 2023,,,,16/Jun/23 12:00 AM,0,"[~accountid:62bf029efbc1f7c647b9f327] 
+
+----
+
+DoD:
+
+Firmware, softwares e bibliotecas atualizadas na mesma versão.
+
+----",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,PENT004003-36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004003-1,Software-Firmware,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02xj2:v,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,8.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Preparar cabeamento para instalação do sensor de vazamento em racks da sala de fontes e linhas de transporte,PENT004012-20,30166,Story,DONE,PENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,Medium,Done,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 2:26 PM,07/Jun/23 4:59 PM,31/May/23 1:53 PM,07/Jun/23 4:59 PM,TIP,Parada de Junho 2023,,,,16/Jun/23 12:00 AM,0,"----
+
+DoD:
+
+Material para instalação dos cabos separado.
+
+----",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,PENT004012-5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004012-8,Sensores de Vazamento,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02tza:q,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,5.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Alinhar com equipe da EMA a implementação da leitura da LDC e interlock da fonte via UDC,PENT004012-3,29000,Story,DONE,PENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,Medium,Done,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,20/Apr/23 5:43 PM,06/Jun/23 3:00 PM,31/May/23 1:53 PM,06/Jun/23 3:00 PM,TIP,Instalação,,,,,0,"[LDC] Alinhar com equipe da EMA a implementação da leitura da LDC e interlock da fonte via UDC. 
+
+DoD:
+
+Especificação BSMP atualizada e versão do pyDRS repassadas e explicadas.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,PENT004012-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004012-9,LDC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02tzr:,,,,,,,,,,,2023 Sprint 8,,,5.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Atualizar firmware da fonte EMA para habilitar leitura e interlock da corrente de fuga via UDC,PENT004012-2,28999,Story,DONE,PENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,Medium,Done,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,20/Apr/23 5:43 PM,07/Jun/23 2:59 PM,31/May/23 1:53 PM,07/Jun/23 2:59 PM,TIP,Instalação,,,,,0,"[LDC] Atualizar firmware da fonte EMA para habilitar leitura e interlock da corrente de fuga via UDC
+
+[~accountid:63d01fd6c565900ff40519b9] 
+
+DoD:
+
+Firmware das placas UDC e IIB atualizados, leituras validadas pelo pyDRS. ",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,PENT004012-3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004012-9,LDC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02tzj:,,,,,,,,,,,2023 Sprint 8,,,8.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Cabear racks na Sala de Fontes e/ou LT como preparação para instalação dos sensores de vazamento em racks restantes,PENT004012-5,29002,Story,DONE,PENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,Medium,Done,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,20/Apr/23 5:43 PM,12/Jun/23 4:12 PM,22/Jun/23 8:37 AM,12/Jun/23 4:12 PM,TIP,Instalação,Parada de Junho 2023,,,07/Jun/23 12:00 AM,0,"Cabear racks na Sala de Fontes e/ou LT como preparação para instalação dos sensores de vazamento em racks restantes.
+
+
+
+Material para instalação dos sensores não chegará para a parada de junho.
+
+Necessidades: FONTES DESLIGADAS, espaço livre para trabalho na sala de fontes (para não conflitar com atividades do CoP)
+
+DoD:
+
+Cabos dos sensores instalados nos racks de fontes das linhas de transporte, sextupolos do Anel e Dipolo B-2 do Booster.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,PENT004012-20,,,,,PENT004012-16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004012-8,Sensores de Vazamento,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02tza:m,,,,,,,,,,,2023 Sprint 8,,07/Jun/23 12:00 AM,13.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Analisar racks de fontes de alta potência e verificar com COP cabeamento para interlock pelo sensor de vazamento,PENT004012-23,32202,Story,DONE,PENT004012,ENT004.012 - MELHORIAS E CARACTERIZAÇÃO DAS FONTES DO SIRIUS,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+Melhorias necessárias para as fontes do Sirius observadas ao longo do tempo, seja devido à falta de tempo para o término dos projetos, seja por observações pós instalação, a saber: 
+1) a campanha de caracterização de ripple das fontes, focando nas interferências de 2 Hz e 60 Hz.
+2) a ativação da proteção contra corrente de fuga para o terra (desativada no momento da criação deste documento). 
+3) introduzir detecção e proteção contra vazamentos nos racksdas fontes refrigeradas. 
+4) a solução do problema de sobreaquecimento das fontes Regratron.",,Medium,Done,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,31/May/23 12:02 PM,19/Jun/23 4:53 PM,31/May/23 1:53 PM,19/Jun/23 4:53 PM,,Instalação,,,,,0,"Observar o uso das IDBs para interlock externo das Regatrons !
+
+DoD:
+
+Levantamento do uso das IDB’s dos racks das Salas de Fontes, Linhas de Transporte e EMA para futura integração do sensor de vazamento e do interlock da Regatron.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,PENT004012-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004012-8,Sensores de Vazamento,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02tza:v,,,,,,,,,,,2023 Sprint 8,,,8.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Checar scripts e eletrônicas auxiliares da segunda gaveta do NLK (em montagem no IMAS-2),ENT004022-265,32974,Story,DONE,ENT004022,ENT004.022 - PROJETO DE NOVO NLK PARA TOP-UP,software,Ruy Farias,6266f26cd364ae006808a2e6,"ESCOPO:
+Reduzir as perturbações produzidas pelo NLK (Non-linear kicker) sobre o feixe armazenado do anel de armazenamento do Sirius.",,Medium,Done,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,fabio carlos arroyo,62b993f3fa171a27239c60f0,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,05/Jun/23 11:40 AM,13/Jun/23 1:17 PM,13/Jun/23 1:17 PM,13/Jun/23 1:17 PM,,,,,,,0,"Testes com os DAC's da gaveta titular do NLK
+
+DoD:
+
+Placas operacionais via alto-nível.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,ENT004022-251,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT004022-3,TIP - INSTALAÇÃO/PERFORMANCE TÉCNICA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i033tc:i,,,,,,,,,,,2023 Sprint 8,,,5.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+SEI - Apoiar a instalação de sensores de temperatura Pt100 no corpo do ondulador para testes de ciclagem para validação da câmara de vácuo,PENT004031-38,30463,Story,DONE,PENT004031,ENT004.031 - PROTÓTIPO DO ONDULADOR DU525 DA LINHA SABIÁ,software,Ruy Farias,6266f26cd364ae006808a2e6,"ESCOPO:
+Projeto, construção e Instalação de ondulador Delta para a linha Sabiá, com período de 52,5 mm, composto por um módulo de 1,2 m de comprimento, e todos os subsistemas necessários para a sua instalação e operação.",,High,Done,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Sergio Henrique Sona,6254674756e5a8006dd8afb7,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,15/May/23 8:31 AM,16/Jun/23 1:41 PM,16/Jun/23 1:40 PM,16/Jun/23 1:41 PM,TIP,,,,,02/Jun/23 12:00 AM,0,"Apoiar a instalação de sensores de temperatura Pt100 e validar leituras de temperatura.
+
+[~accountid:62bf029efbc1f7c647b9f327] 
+
+[~accountid:62bb04adde439ce00ee39aa9] 
+
+DoD:
+
+Sensores instalados, leituras validadas.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,PENT004031-24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004031-5,Sistema de Vácuo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02zir:,,,,,,,,,,,2023 Sprint 7,2023 Sprint 8,15/May/23 12:00 AM,8.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Instalar e configurar SERIALxxCON para as fontes corretoras do PAPU,PENT004032-247,31189,Story,DONE,PENT004032,ENT004.032 - Ondulador PAPU,software,Ruy Farias,6266f26cd364ae006808a2e6,ESCOPO: Projeto e construção de um ondulador para comissionamento das linhas de luz do Sirius utilizando peças do protótipo do ondulador EPU do UVX.,,Highest,Done,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,22/May/23 10:54 AM,12/Jun/23 4:13 PM,22/Jun/23 8:37 AM,12/Jun/23 4:13 PM,TIP,Parada de Junho 2023,,,,16/Jun/23 12:00 AM,0,"[~accountid:62bf029efbc1f7c647b9f327] 
+
+Instalar e configurar BeagleBone para rede serial das corretoras do PAPU (rack Fontes-01)
+
+
+
+Necessidades:  ---
+
+DoD:
+
+Rede serial para fontes corretoras do PAPU disponibilizada para operação.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004032-7,Corretoras,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i036p3:,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,5.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Otimizar de parâmetros de controle para fontes corretoras do PAPU,PENT004032-59,27765,Story,DONE,PENT004032,ENT004.032 - Ondulador PAPU,software,Ruy Farias,6266f26cd364ae006808a2e6,ESCOPO: Projeto e construção de um ondulador para comissionamento das linhas de luz do Sirius utilizando peças do protótipo do ondulador EPU do UVX.,,Highest,Done,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,28/Mar/23 11:02 AM,21/Jun/23 4:19 PM,22/Jun/23 8:37 AM,21/Jun/23 4:19 PM,TIP,Parada de Junho 2023,,,,14/Jun/23 12:00 AM,0,"[~accountid:63d01fd6c565900ff40519b9] 
+
+Otimização de coeficientes de controle para as fontes FBP do PAPU.
+
+
+
+Necessidades: TUNEL FECHADO, fontes de baixa potência (FBP) ligadas, IOC’s e telas de operação destas fontes operando, fibra de sincronismo instalada. Acompanhamento do COP.
+
+DoD:
+
+Fontes corretoras com parâmetros de operação e controle configurados, e operação testada pelo alto-nível, incluindo sincronismo. ",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,PENT004032-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT004032-7,Corretoras,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02mbi:,,,,,,,,,,,2023 Sprint 8,,14/Jun/23 12:00 AM,8.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+[Seminário] Participação de seminário de sistemas embarcados em SP,ENT005001-104,33089,Story,DONE,ENT005001,ENT005.001 - DESENVOLVIMENTO E CAPACITAÇÃO PARA O SIRIUS,software,James Citadini,6250da2ea629c30068aa63af,"ESCOPO:
+Desenvolvimento de Recursos Humanos
+Participação de Eventos.",,High,Done,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,12/Jun/23 8:31 AM,21/Jun/23 8:29 AM,12/Jun/23 8:38 AM,21/Jun/23 8:29 AM,,,,,,20/Jun/23 12:00 AM,0,"DoD: Participação concluída e anotações sobre o evento no OneNote do grupo
+
+
+
+
+
+[~accountid:62bf029efbc1f7c647b9f327] 
+
+[~accountid:63d01fd6c565900ff40519b9] ",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT005001-6,Grupo SEI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i03h6n:,,,,,,,,,,,2023 Sprint 8,,20/Jun/23 12:00 AM,21.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+[Ciência Aberta] Prepara material para o Ciência Aberta 2023,ENT005001-105,33090,Story,DONE,ENT005001,ENT005.001 - DESENVOLVIMENTO E CAPACITAÇÃO PARA O SIRIUS,software,James Citadini,6250da2ea629c30068aa63af,"ESCOPO:
+Desenvolvimento de Recursos Humanos
+Participação de Eventos.",,High,Done,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,12/Jun/23 8:33 AM,19/Jun/23 8:14 AM,12/Jun/23 8:38 AM,19/Jun/23 8:14 AM,,,,,,17/Jun/23 12:00 AM,0,"DoD: Participação concluída no CA
+
+[~accountid:63d01fd6c565900ff40519b9] 
+
+[~accountid:62bb04adde439ce00ee39aa9] 
+
+[~accountid:70121:016a6576-395b-4462-b1e7-fb210bae9d77] 
+
+[~accountid:62bf029efbc1f7c647b9f327] 
+
+[~accountid:62bb024e018dea0d4073dbdd] 
+
+[~accountid:62b0928ba58208122d9fbcb5] ",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT005001-6,Grupo SEI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i03h6v:,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,21.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Confeccionar cabo entre feed-through e placa da fonte de corrente para caracterização magnética do criostato vertical (externo),PENT034001-575,30637,Story,DONE,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,Done,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Juan Gansauskas Galvez,62b061c7cebad33432f5cbf3,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,15/May/23 2:19 PM,13/Jun/23 10:29 AM,05/Jun/23 10:23 AM,13/Jun/23 10:29 AM,FDR,Sensores,,,,23/Jun/23 12:00 AM,0,"* 1 cabo 2xPT para sensor de temperatura (Já comprado)
+* 1 cabo 1xPT para injeção de corrente (Belden)
+* 2 cabo 2xPT para sensores hall (já comprado) 
+
+
+
+FUTURO, COMPRAR CABOS:
+
+* 1 cabo 3xPT para bobinas
+* 2 cabo 2xPT ----> 1 cabo 3xPT para sensores hall (SUBSTITUIR)
+
+DoD:
+
+Cabo montado conforme especificação e validação via teste de continuidade.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,PENT034001-722,,PENT034001-441,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02swq:v,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,8.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Testar e validar fonte de corrente na Sala de Caracterização Magnética,PENT034001-644,31972,Story,To Do,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,,rafael.seraphim,6266f26c07b842006f1348c2,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,30/May/23 5:01 PM,07/Jun/23 11:38 AM,22/Jun/23 8:37 AM,,FDR,,,,,23/Jun/23 12:00 AM,0,.,,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,PENT034001-457,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02chq:hu,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,13.0,13.0,,,,9,EMI,,,,,,,,,,,,,,To Do
+Integração e validação da eletrônica PROTOTIPO QDC-CV com o sistema de interlock,PENT034001-165,26685,Story,DONE,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,,Done,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,08/Mar/23 9:41 AM,21/Jun/23 8:32 AM,22/Jun/23 8:37 AM,21/Jun/23 8:32 AM,FDR,Detecção de quench,,,,23/Jun/23 12:00 AM,0,"[~accountid:62b0928ba58208122d9fbcb5] 
+
+DoD:
+
+Montagem do circuito de detecção no mini-rack e testes da operação remota (external trigger, reset, status) e aquisição dos sinais analógicos via sistema de automação.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,PENT034001-651,,,,PENT034001-71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02cgl:zy,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,13.0,13.0,,,,9,EMI,,,,,,,,,,,,,,Done
+Integração e validação da eletrônica PROTOTIPO QDC-CV com o circuito de extração,PENT034001-164,26684,Story,DONE,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,,Done,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,08/Mar/23 9:41 AM,21/Jun/23 8:32 AM,22/Jun/23 8:37 AM,21/Jun/23 8:32 AM,FDR,Detecção de quench,Extração,,,23/Jun/23 12:00 AM,0,"[~accountid:62b0928ba58208122d9fbcb5] 
+
+DoD:
+
+Testes acionando o circuito de extração pelo circuito de detecção realizados e validados com CoP.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,PENT034001-134,PENT034001-647,,,,PENT034001-651,,,,PENT034001-71,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02cgl:zx,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,8.0,8.0,,,,9,EMI,,,,,,,,,,,,,,Done
+Fabricar paineís para a eletrônica PROTOTIPO do circuito de detecção do criostato vertical (QDC-CV),PENT034001-653,31983,Story,DONE,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,Done,Samuel Fraga,62b0928ba58208122d9fbcb5,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,30/May/23 5:03 PM,07/Jun/23 8:19 AM,22/Jun/23 8:37 AM,07/Jun/23 8:19 AM,FDR,Detecção de quench,,,,23/Jun/23 12:00 AM,0,"[~accountid:62bb024e018dea0d4073dbdd] 
+
+DoD:
+
+Painéis fabricados na LPKF, com acabamento adequado.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,PENT034001-654,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02cgl:zwd,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,5.0,5.0,,,,9,EMI,,,,,,,,,,,,,,Done
+Crimpar cabos das voltage taps para o feed-through do CV (interno),PENT034001-574,30636,Story,DONE,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,Done,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Juan Gansauskas Galvez,62b061c7cebad33432f5cbf3,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,15/May/23 2:19 PM,13/Jun/23 4:03 PM,22/Jun/23 8:37 AM,13/Jun/23 4:03 PM,FDR,Sensores,,,,23/Jun/23 12:00 AM,0,"[~accountid:70121:016a6576-395b-4462-b1e7-fb210bae9d77] 
+
+DoD:
+
+Terminais para feedthrough das 8 voltage taps crimpados para setup completo de testes da 2ª bobina supercondutora.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,PENT034001-651,PENT034001-740,,,PENT034001-441,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02cgo:,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,8.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Comprar cabo para caracterização magnética - Helukabel 3 pares trançados,PENT034001-722,32271,Story,IN PROGRESS,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,31/May/23 2:27 PM,14/Jun/23 5:10 PM,21/Jun/23 10:28 AM,,FDR,Sensores,,,,23/Jun/23 12:00 AM,0,"COMPRAR CABOS:
+
+* 1 cabo 3xPT para bobinas e sensores hall
+
+
+
+DoD:
+
+Cadastro de cabo realizado e solicitação de compras conforme especificação emitida.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,PENT034001-575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i03d6v:,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,8.0,,,,,9,EMI,,,,,,,,,,,,,,In Progress
+Testar e validar placa de circuito impresso  para fonte de corrente da caracterização magnética do criostato vertical,PENT034001-457,29074,Story,IN PROGRESS,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,,Bruno Gomes de Oliveira,63d01fd6c565900ff40519b9,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,24/Apr/23 9:37 AM,21/Jun/23 8:30 AM,22/Jun/23 8:37 AM,,FDR,Medidas Magnéticas,Setup de Caracterização,,,23/Jun/23 12:00 AM,0,"DoD:
+
+Caracterização de estabilidade e ruído realizados e validados. ",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,PENT034001-456,,,,,PENT034001-644,,,,PENT034001-74,PENT034001-522,PENT034001-523,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02chq:hr,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,13.0,,,,,9,EMI,,,,,,,,,,,,,,In Progress
+Fechar especificação dos cabos e feed-through para caracterização magnética (comprar? usar o que temos?),PENT034001-648,31978,Story,DONE,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,Done,Rogério José Marcondeli,62bb024e018dea0d4073dbdd,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,30/May/23 5:02 PM,12/Jun/23 8:50 AM,22/Jun/23 8:37 AM,12/Jun/23 8:50 AM,FDR,Medidas Magnéticas,Setup de Caracterização,,,23/Jun/23 12:00 AM,0,"DoD:
+
+Definir quais cabos e feed-through usaremos para a caracterização magnética, incluindo especificação da compra se necessário. ",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02swq:yi,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,8.0,8.0,,,,9,EMI,,,,,,,,,,,,,,Done
+Finalizar fibra óptica para conexão entre QDC-CV e circuito de extração,PENT034001-647,31977,Story,DONE,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Low,Done,Gabriel Brunheira,70121:016a6576-395b-4462-b1e7-fb210bae9d77,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,30/May/23 5:02 PM,20/Jun/23 3:43 PM,22/Jun/23 8:37 AM,20/Jun/23 3:43 PM,FDR,Detecção de quench,,,,23/Jun/23 12:00 AM,0,"DoD:
+
+Fibra plástica que conecta QDS-CV e QED-CV montada conforme posição das eletrônicas na sala de fontes do UVX, com auxílio do GIE.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,PENT034001-164,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02cgl:zwv,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,5.0,5.0,,,,9,EMI,,,,,,,,,,,,,,Done
+Fabricar painéis para projeto de fonte de corrente,PENT034001-523,30252,Story,DONE,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,Done,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,James Citadini,6250da2ea629c30068aa63af,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 4:42 PM,05/Jun/23 2:39 PM,22/Jun/23 8:37 AM,05/Jun/23 2:39 PM,FDR,Medidas Magnéticas,Setup de Caracterização,,,,0,"DoD:
+
+Painéis fabricados na LPKF, com acabamento adequado.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,PENT034001-522,,,,,,,,,PENT034001-457,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02chq:hx,,,,,,,,,,,2023 Sprint 8,,,5.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Projetar paineís para a eletrônica PROTOTIPO do circuito de detecção do criostato vertical (QDC-CV),PENT034001-654,31984,Story,DONE,PENT034001,ENT034.001 - Projeto de um Wavelengthshifter - WLS,software,rafael.seraphim,6266f26c07b842006f1348c2,,,Medium,Done,Samuel Fraga,62b0928ba58208122d9fbcb5,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,30/May/23 5:03 PM,07/Jun/23 8:19 AM,22/Jun/23 8:37 AM,07/Jun/23 8:19 AM,FDR,Detecção de quench,,,,23/Jun/23 12:00 AM,0,"DoD:
+
+Painéis projetados, arquivos de fabricação gerados e atualizados no Git.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,PENT034001-653,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT034001-15,Criostato vertical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02cgl:zw6,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,3.0,5.0,,,,9,EMI,,,,,,,,,,,,,,Done
+Contextualização e conversa técnica sobre módulos de diagnóstico da torre 1 de RF,PENT074002-50,32907,Story,DONE,PENT074002,ENT074.002 - ESTUDOS DE UMA INSTALAÇÃO DE RADIOISÓTOPOS BASEADA EM ACELERADORES,software,fernando bacchim,6266e105593e80006f14ccbc,"ESCOPO:
+A partir do mapeamento das necessidades e demandas de radioisótopos interna e externamente ao campus, este projeto objetiva um estudo detalhado sobre uma instalação adequada à produção destes isótopos. Tendo em vista a variedade dos isótopos utilizados internacionalmente, é provável que a instalação necessária deve abrigar pelo menos um Cíclotron e alguns Linacs de alta potência. ",,Low,Done,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Sergio Henrique Sona,6254674756e5a8006dd8afb7,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,05/Jun/23 9:03 AM,21/Jun/23 8:34 AM,15/Jun/23 9:02 AM,21/Jun/23 8:34 AM,PDR,Fonte de RF,,,,,0,Fonte de RF,,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,,,,,PENT074002-31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT074002-3,Sistema de RF,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i03dix:,,,,,,,,,,,2023 Sprint 8,,,5.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Finalizar montagem de 2 unidades do PCB do Glucow,ENT094003-68,31807,Story,To Do,ENT094003,ENT094.003 - INTERF. P/ BIOSSENSOR NANOESTRUTURADO P/ MEDIDA NÃO INVAS GLICEMIA.,software,Sergio Rodrigo Marques,6266f26ca32183006f233fb7,"ESCOPO:
+O projeto completo, sob responsabilidade de Dr. Rafael Furlan (LNNano), visa o desenvolvimento de um dispositivo portátil e miniaturizado de iontoforese reversa para a determinação não-invasiva de glicemia (concentração de glicose no sangue). O dispositivo  será composto por três unidades: nanomembrana interfacial, sistema eletródico e transdutor.
+A colaboração com o LNNano se dará pela continuação e aperfeiçoamento do desenvolvimento do transdutor: um sistema eletrônico com comunicação sem fio, responsável pela aplicação de uma corrente de iontoforese reversa e leitura, condicionamento e transmissão dos dados de um biossensor eletroquímico.",,Medium,,Robert Willian Polli,62bf029efbc1f7c647b9f327,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,30/May/23 11:23 AM,22/Jun/23 8:30 AM,22/Jun/23 8:28 AM,,,,,,,23/Jun/23 12:00 AM,0,"[~accountid:63d01fd6c565900ff40519b9] 
+
+DoD:
+
+Montagem dos componentes restantes das duas unidades finalizada.",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,ENT094003-47,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ENT094003-2,FDR - Desenvolvimento Experimental /Projeto Executivo,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Impediment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02fmk:o,,,,,,,,,,,2023 Sprint 8,,05/Jun/23 12:00 AM,8.0,,,,,9,EMI,,,,,,,,,,,,,"22/Jun/23 8:30 AM;62b0acb8f38b4dcf73d839ec;*IMPEDIMENTO*
+
+Impedimento: atividade não será finalizada por conta de entrega de material de fornecedor externo.
+
+Problema: não poderemos seguir com esta atividade por conta de dependencia de chegada de material de fornecedor externo (estava previsto pra chegar 19/junho, mas chegará apenas 22/junho)
+
+Impacto:  Nenhum impacto na sprint atual. Atrasará 1 ou 2 dias atividades da sequencia para a próxima sprint.
+
+Quem: [~accountid:62b0acb8f38b4dcf73d839ec] [~accountid:62bf029efbc1f7c647b9f327] ",To Do
+Testar sensores OD com amostras no LNBR para confirmar seu funcionamento,PENT104002-38,29972,Story,DONE,PENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,Highest,Done,Eduarda Nicoletto Ayres de Oliveira,62bb04adde439ce00ee39aa9,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 10:19 AM,14/Jun/23 8:47 AM,05/Jun/23 11:18 AM,14/Jun/23 8:47 AM,,Sensores e atuadores,Software-firmware,,,23/Jun/23 12:00 AM,0,"[~accountid:62b0928ba58208122d9fbcb5] 
+
+* Solicitar amostras de referência de OD para LNBR
+* Medir resposta dos sensores para as referências de OD
+
+----
+
+DoD:
+
+Curvas com resposta dos sensores para as referência de OD levantadas para todas smart sleeves.
+
+----",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,PENT104002-35,,,,,PENT104002-33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT104002-3,Eletrônica,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02to6:r,,,,,,,,,,,2023 Sprint 7,2023 Sprint 8,15/May/23 12:00 AM,13.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Verificar e otimizar operação do sensor de densidade óptica,PENT104002-35,29969,Story,DONE,PENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,High,Done,Eduarda Nicoletto Ayres de Oliveira,62bb04adde439ce00ee39aa9,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 10:19 AM,21/Jun/23 3:04 PM,19/Jun/23 8:54 AM,21/Jun/23 3:04 PM,,Sensores e atuadores,Software-firmware,,,23/Jun/23 12:00 AM,0,"[~accountid:62b0928ba58208122d9fbcb5] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+   Solução de isolação das smart sleeves provida pela ACA testada e validada ou adaptadas.
+
+----",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,,,,,,PENT104002-33,PENT104002-38,,,,,,21/Jun/23 3:04 PM;ug:5b402529-23a2-4594-92ec-2412951ddc9b;Com e Sem.png;https://cnpem.atlassian.net/rest/api/3/attachment/content/19460,21/Jun/23 3:04 PM;ug:5b402529-23a2-4594-92ec-2412951ddc9b;Média.png;https://cnpem.atlassian.net/rest/api/3/attachment/content/19461,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT104002-3,Eletrônica,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02to6:d,,,,,,,,,,,2023 Sprint 7,2023 Sprint 8,15/May/23 12:00 AM,13.0,,,,,9,EMI,,,,,,,,,,,,,,Done
+Rodar experimento em laboratório (sala SEI) com o setup completo,PENT104002-33,29967,Story,To Do,PENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,Medium,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 10:19 AM,22/Jun/23 8:37 AM,22/Jun/23 8:28 AM,,,Gerenciamento de experimentos,Sensores e atuadores,Smart Sleeve,Software-firmware,12/Jun/23 12:00 AM,0,"[~accountid:62bb04adde439ce00ee39aa9] 
+
+[~accountid:62b0928ba58208122d9fbcb5] 
+
+----
+
+*Definição de concluído (DoD - Definition of Done):*
+Experimentos de turbidostato e chemostato realizados de forma a simular  um experimento real com o setup completo (GUI,  DPU, servidor, 8 smart sleeves, coleta de dados, etc).
+
+----",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,PENT104002-37,PENT104002-35,PENT104002-34,PENT104002-38,PENT104002-36,PENT104002-39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT104002-3,Eletrônica,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Impediment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02to6:u,,,,,,,,,,,2023 Sprint 8,,07/Jun/23 12:00 AM,13.0,,,,,9,EMI,,,,,,,,,,,,,"22/Jun/23 8:37 AM;62b0acb8f38b4dcf73d839ec;*IMPEDIMENTO*
+
+Impedimento: Não foi possível rodar o teste até o momento, não temos a GUI (interface gráfica)
+
+Problema: Não será possível fazer a integração do sistema completa, pois a interface gráfica não está disponível/operacional (não faz nem a conexão com o hardware). GUI é responsabilidade do grupo ARO.
+
+Impacto: Não será apresentada na primeira entrega ao LNBR, dia 30/junho.
+
+Quem: [~accountid:62b0acb8f38b4dcf73d839ec] [~accountid:62bb04adde439ce00ee39aa9] [~accountid:62b0928ba58208122d9fbcb5]",To Do
+Entrega da primeira unidade ao LNBR e orientar sobre operação,PENT104002-39,29973,Story,To Do,PENT104002,ENT104.002 - EVOLVER - HARDWARE PARA EVOLUÇÃO DE MICRORGANISMOS,software,Regis Terenzi Neuenschwander,627b27fb9bb66000699530d7,"ESCOPO:
+Este projeto propõe o desenvolvimento de um equipamento baseado no eVOLVER para aprimorar a cultura de células, permitindo crescimento em grande escala e com condições bem controladas.",,Medium,,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,Patricia Henriques Nallin,62b0acb8f38b4dcf73d839ec,09/May/23 10:20 AM,22/Jun/23 8:33 AM,22/Jun/23 8:28 AM,,,,,,,16/Jun/23 12:00 AM,0,"[~accountid:62bb04adde439ce00ee39aa9] 
+
+[~accountid:62b0928ba58208122d9fbcb5] 
+
+----
+
+DoD:
+
+Equipamento entregue e instalado LNBR e realização de um experimento em conjunto.
+
+----",,Patricia Henriques Nallin,,62b0acb8f38b4dcf73d839ec,,,,,,,,,,PENT104002-33,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PENT104002-3,Eletrônica,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Impediment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i02to6:zi,,,,,,,,,,,2023 Sprint 8,,12/Jun/23 12:00 AM,13.0,,,,,9,EMI,,,,,,,,,,,,,"22/Jun/23 8:33 AM;62b0acb8f38b4dcf73d839ec;*IMPEDIMENTO*
+
+Impedimento: Não entregaremos nessa sprint.
+
+Problema: Não entregaremos nessa sprint, apenas dia 30/junho. Isso já foi pactuado com todos os envolvidos, incluindo o LNBR.
+
+Impacto:  Atraso nesta primeira entrega. Todos os envolvidos já estão cientes.
+
+Quem: [~accountid:62b0acb8f38b4dcf73d839ec] [~accountid:62bb04adde439ce00ee39aa9] [~accountid:62b0928ba58208122d9fbcb5] ",To Do
